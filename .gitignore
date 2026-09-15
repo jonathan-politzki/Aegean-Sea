@@ -1,0 +1,6 @@
+tools/node_modules/
+tools/shots/
+tools/_compile.html
+.DS_Store
+*.heic
+.env

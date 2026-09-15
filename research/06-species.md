@@ -1,0 +1,1391 @@
+# 06 - Species Guide: Fish (and two honorary non-fish) of the Aegean
+
+Machine-readable version: `research/species.json` (26 entries, same field names as the headings below).
+
+**How to read confidence ratings.** HIGH = the claim was checked this session against a primary text (Perseus, MIT Classics, the 1928 Loeb Oppian on the Internet Archive) or a reference database (FishBase, IUCN via FishBase/Wikipedia species boxes, Wikimedia Commons API for licences). MEDIUM = from a secondary source (usually the English Wikipedia article, read in raw wikitext) or standard practice that was not source-checked. LOW = not verified; flagged so it can be cut or checked before printing. Fields that could not be verified at all are left empty in the JSON.
+
+**Method notes.** The session lost web-search access early, so verification leaned on: Perseus (Pliny NH 9, Pausanias 9.24, Aristophanes *Acharnians*, Homer, Athenaeus 7 in Yonge's translation, chapter-numbered as on Perseus), MIT Classics (Aristotle *HA* and *PA*), A. W. Mair's Loeb *Oppian* (1928; its "Analysis of the Halieutica" supplies the line ranges cited), FishBase summary pages, Wikipedia raw wikitext (species boxes carry the IUCN citation), and the Wikimedia Commons API (licence, author and dimensions read from `extmetadata` for every image below). Athenaeus is cited by Perseus chapter number of Book 7 (Yonge), not by Casaubon page, because the Casaubon pagination was not exposed in the text fetched; the chapter URLs are given so each passage can be re-read.
+
+---
+
+## Atlantic bluefin tuna — *Thunnus thynnus* — τόνος (tonos)
+
+**Ancient name:** θύννος (thynnos); also θυννίς (thynnis, the female/young), ὄρκυνος (orkynos, the very large fish) — Athenaeus, Deipnosophistae 7 (Sostratus quoted: pelamys → thynnis → thynnus → orkynos → ketos as the fish grows); Oppian, Halieutica 3.620-648 (the tunny fishery)
+
+**Family:** Scombridae
+
+**Size:** Max 458 cm TL and 684 kg published; common length about 200 cm FL; max reported age 32 years (FishBase). Mediterranean fish are typically 1-2.5 m.
+
+**Description:** The largest of the tunas: a torpedo-shaped, metallic dark-blue back, silver-white flanks, short pectoral fins and a row of yellow finlets before the crescent tail. Warm-bodied (regional endothermy) and capable of long trans-oceanic migrations; adults enter the Mediterranean from the Atlantic to spawn in early summer (FishBase: marine, brackish, pelagic-oceanic). Feeds on schooling fish (sardine, anchovy, mackerel), squid and crustaceans.
+
+**Habitat:** Epipelagic, oceanic; migrates into the Mediterranean to spawn (June-August per Wikipedia/ICCAT).
+
+**Fishing (where, how):** Historically taken in the Aegean and Marmara in fixed trap-nets and by the tunny-watcher (thynnoskopos) system described by Oppian; today Mediterranean bluefin are caught mainly by purse seine (often towed live to fattening cages), plus longline, handline/trolling and harpoon, under strict ICCAT quotas (Wikipedia; FishBase).
+
+**Season:** Spring-early summer spawning run into the Mediterranean (Oppian: "when the host of Tunnies set forth in spring"; Wikipedia: Mediterranean spawning June-August).
+
+**Eating:** Fresh steaks grilled (τόνος σχάρας) or seared; in the Aegean and Marmara tradition large bonito/tuna are also salt-cured as lakerda (λακέρδα), the descendant of ancient tarichos (Wikipedia, "Lakerda").
+
+**History:** Aristotle, Historia Animalium 4.10 (537a) notes tunny-watchers surrounding sleeping tunnies (cited in Mair's Loeb Oppian note). Oppian, Halieutica 3.620-648 describes the spring migration from the Ocean, and the "tunny-watcher" who climbs a high hill, counts the shoals and directs the boats to lay the nets. Athenaeus 7 quotes Ananius on summer tunny "with garlic seasoning richly drest", Sostratus on the size-names (pelamys, thynnis, thynnus, orkynos, ketos), and Aristotle that the pelamydes and tunnies breed in the Black Sea. The tunny was the civic badge of Kyzikos on the Propontis: its electrum staters carry a tunny beneath the main type (Commons: Kyzikos stater, "Head of Attis ... below, tunny"; Wikipedia "Cyzicus").
+
+**Modern history:** Decades of overfishing drove the eastern Atlantic/Mediterranean stock down sharply (ICCAT in 2009 reported declines of 72% in the eastern Atlantic over 40 years); a strict ICCAT recovery plan with reduced quotas followed, and the stock rebuilt enough that in 2021 the IUCN moved the species from Endangered to Least Concern (Wikipedia; FishBase IUCN line, assessed 15 Jan 2021).
+
+**IUCN status:** Least Concern (IUCN 2021; Collette et al.; previously Endangered 2011).
+
+**Image:** [Atlantic bluefin tuna caught by jigging off Cabo de Palos, Murcia (Spain).](https://commons.wikimedia.org/wiki/File%3AAt%C3%BAn_rojo%2C_thunnus_thynnus%2C_pescado_a_jigging_en_Cabo_de_Palos%2C_Murcia..JPG) — author: Rafa Gallut; licence: **CC BY-SA 3.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/b/b7/At%C3%BAn_rojo%2C_thunnus_thynnus%2C_pescado_a_jigging_en_Cabo_de_Palos%2C_Murcia..JPG
+
+**Confidence:**
+
+- size: HIGH - FishBase
+- ancient: HIGH - Athenaeus 7 (Perseus) and Mair's Loeb glossary
+- history: HIGH for Oppian 3.620-648, Athenaeus 7 and the Kyzikos coin (all read this session); Aristotle HA 537a via Mair's note only
+- modern: HIGH - Wikipedia article and FishBase IUCN line
+- iucn: HIGH
+- fishing: MEDIUM - Wikipedia gear list + Oppian; Greek-specific fleet detail not verified
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Exact Greek/ICCAT quota figures for Greece not verified.
+- Archestratus' own tuna fragment (Athenaeus 7.301-303) was not located in the chapters read.
+
+**Sources:**
+
+- [FishBase: Thunnus thynnus](https://www.fishbase.se/summary/Thunnus-thynnus.html)
+- [IUCN Red List: Thunnus thynnus (2021)](https://www.iucnredlist.org/species/21860/46913402)
+- [Wikipedia: Atlantic bluefin tuna](https://en.wikipedia.org/wiki/Atlantic_bluefin_tuna)
+- [Wikipedia: Cyzicus (tunny on electrum staters)](https://en.wikipedia.org/wiki/Cyzicus)
+- [Athenaeus, Deipnosophistae 7 (Yonge trans., Perseus) ch. 16, 66, 109](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=66)
+- [Oppian, Halieutica 3.620-648 (Mair, Loeb 1928)](https://archive.org/details/oppiancolluthust00oppiuoft)
+- [Commons: Kyzikos electrum stater with tunny](https://commons.wikimedia.org/wiki/File%3ACoin_minted_in_Kyzikos%2C_5th-4th_century_BC.jpg)
+
+---
+
+## Atlantic bonito — *Sarda sarda* — παλαμίδα (palamida)
+
+**Ancient name:** πηλαμύς (pelamys) — but in antiquity this usually meant the young (one-year-old) tunny, not necessarily Sarda sarda: Athenaeus 7 quotes Sostratus that "the pelamys is called the thunnis ... when it becomes larger, thunnus" and Sophocles on the "foreign pelamys" wintering in the Hellespont; Mair (Loeb Oppian glossary): "Πηλαμύς, one-year-old Tunny, H. 4.504 n." The ancient ἀμία (amia) is often identified with the bonito (Mair, Halieutica 2.553-627 "Dolphin and Amia (Bonito)").
+
+**Family:** Scombridae
+
+**Size:** Max 91.4 cm FL, 11 kg; common 50 cm FL; max age 5 years (FishBase).
+
+**Description:** A slim, fast schooling scombrid with a steely-blue back crossed by oblique dark stripes, a large mouth with conical teeth, and yellowish finlets. Lives in the upper water column of coastal seas (FishBase: marine, brackish, pelagic-neritic), often in large shoals; feeds on small pelagic fish such as anchovy and sardine, and on squid.
+
+**Habitat:** Coastal pelagic, Mediterranean and Black Sea; migratory through the Bosphorus and Dardanelles into the Aegean.
+
+**Fishing (where, how):** Caught in the Aegean by purse seine together with other small pelagics, by drift and set gill-nets, and by trolling lures from small boats; a classic autumn fish of the North Aegean and the Straits (Athenaeus already records the pelamys migrating to the Bosphorus in summer).
+
+**Season:** Late summer to autumn run (Wikipedia notes the Bosphorus migration prized for lakerda).
+
+**Eating:** Grilled steaks (παλαμίδα σχάρας), baked with tomato, or salt-cured as lakerda (λακέρδα) — "made from one-year-old bonito migrating through the Bosphorus is especially prized"; lakerda descends from the ancient Greek tarichos horaion (Wikipedia "Lakerda").
+
+**History:** Athenaeus 7 (Yonge ch. 109): "There is also the pelamys. Phrynichus mentions it in his Muses; and Aristotle ... says the pelamydes and the tunnies breed in the Black Sea, but not anywhere else"; Sophocles' Shepherds on the pelamys wintering in the Hellespont and coming in summer to the Bosphorus. Oppian, Halieutica 4.504-592 describes the capture of pelamydes, and 2.553-627 the amia (bonito) fighting dolphins (Mair's analysis of the poem).
+
+**Modern history:** Assessed Least Concern (IUCN 2021 per FishBase). An important commercial and game fish of the Mediterranean and Black Sea (Wikipedia).
+
+**IUCN status:** Least Concern (IUCN, assessed 15 Nov 2021, per FishBase).
+
+**Image:** [Atlantic bonito (Sarda sarda) showing the oblique dorsal stripes.](https://commons.wikimedia.org/wiki/File%3ABonites_%C3%A0_dos_ray%C3%A910.jpg) — author: Renhour48; licence: **CC0**; direct file: https://upload.wikimedia.org/wikipedia/commons/9/9c/Bonites_%C3%A0_dos_ray%C3%A910.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH that pelamys/amia are the candidates; MEDIUM on which modern species each meant
+- history: HIGH - passages read on Perseus / Mair analysis
+- iucn: HIGH - FishBase
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: HIGH for lakerda (Wikipedia); grilling general knowledge
+- image: HIGH
+
+**Not verified / open points for this entry:**
+
+- Greek-specific catch statistics and gear split not verified.
+
+**Sources:**
+
+- [FishBase: Sarda sarda](https://www.fishbase.se/summary/Sarda-sarda.html)
+- [Wikipedia: Atlantic bonito](https://en.wikipedia.org/wiki/Atlantic_bonito)
+- [Wikipedia: Lakerda](https://en.wikipedia.org/wiki/Lakerda)
+- [Athenaeus 7 (Perseus, Yonge) ch. 66 and 109](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=109)
+- [Oppian, Halieutica 2.553-627; 4.504-592 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Swordfish — *Xiphias gladius* — ξιφίας (xifias)
+
+**Ancient name:** ξιφίας (xiphias) — Athenaeus 7 (Yonge ch. 96: "There is also the sword-fish. Aristotle says that this fish has its lower jaw short, but its upper one bony, long ... what is called the sword; but that this fish has no teeth"); Mair, Loeb Oppian glossary "Ξιφίας, Sword-fish, Xiphias gladius"; Oppian, Halieutica 3.529-575.
+
+**Family:** Xiphiidae
+
+**Size:** Max 455 cm FL and 650 kg; common length about 300 cm TL (FishBase). Mediterranean fish are smaller than Pacific ones (Wikipedia).
+
+**Description:** Unmistakable: a flattened, sword-like upper jaw as long as a third of the body, a tall first dorsal fin, no pelvic fins and no scales or teeth in adults. An oceanic, highly migratory predator that hunts squid and pelagic fish, often at depth by day and near the surface at night (FishBase: pelagic-oceanic, oceanodromous). Females grow larger than males; maturity at 4-5 years (Wikipedia).
+
+**Habitat:** Oceanic and offshore Aegean waters; also enters the straits.
+
+**Fishing (where, how):** Greek swordfish are taken almost entirely by surface drifting longline (paragadi) from the Ionian, Cretan and Aegean seas; in antiquity and until recently they were harpooned from boats with a look-out mast — the method Polybius/Strabo describe for the Strait of Messina, where wooden feluccas still hunt them (Wikipedia "Swordfish"; Mair's Loeb introduction quoting Strabo).
+
+**Season:** Summer (Mediterranean fishery; ICCAT closes the Mediterranean swordfish fishery for part of the year — dates not verified here).
+
+**Eating:** Thick steaks grilled (ξιφίας σχάρας) with ladolemono, or cubed on skewers as ξιφίας σουβλάκι; Archestratus already recommended "a slice of sword-fish" at Byzantium (Athenaeus 7, ch. 96).
+
+**History:** Athenaeus 7 (Yonge ch. 96) preserves Aristotle's description of the sword and Archestratus' advice: "take a slice of sword-fish when you go to fair Byzantium, and take the vertebrae which bend his tail. He's a delicious fish, both there and where the sharp Pelorian cape juts out" (i.e. the Strait of Messina). Oppian, Halieutica 3.529-575 treats the capture of the sword-fish. Strabo (after Polybius) describes the Messina harpoon fishery: a look-out signals, a two-man boat approaches, the harpooner strikes with a barbed, detachable head on a long rope (Loeb Oppian, introduction).
+
+**Modern history:** Mediterranean swordfish were heavily exploited by driftnets (banned in the EU from 2002) and longlines; ICCAT adopted a Mediterranean recovery plan in 2016 with quotas and seasonal closures. IUCN Near Threatened (assessed 2021, published 2022; FishBase/Wikipedia).
+
+**IUCN status:** Near Threatened (IUCN; assessed 1 May 2021 per FishBase; Collette et al. 2022).
+
+**Image:** [Swordfish (Xiphias gladius), IFREMER photograph.](https://commons.wikimedia.org/wiki/File%3AEspadon_%28Xiphias_gladius%29_%28Ifremer_00764-87622%29.jpg) — author: Hugues Evano (IFREMER); licence: **CC BY 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/9/99/Espadon_%28Xiphias_gladius%29_%28Ifremer_00764-87622%29.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH - Athenaeus passage read; Oppian lines from Mair's analysis; Strabo via Mair
+- modern: MEDIUM - driftnet ban and 2016 ICCAT plan are from memory, not verified this session; IUCN HIGH
+- fishing: MEDIUM
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH
+
+**Not verified / open points for this entry:**
+
+- ICCAT Mediterranean swordfish closure dates (commonly cited as 1 Jan-31 Mar and 1 Oct-30 Nov) not verified.
+- EU driftnet ban year (2002) and ICCAT Rec. 16-05 not verified this session.
+
+**Sources:**
+
+- [FishBase: Xiphias gladius](https://www.fishbase.se/summary/Xiphias-gladius.html)
+- [Wikipedia: Swordfish](https://en.wikipedia.org/wiki/Swordfish)
+- [Athenaeus 7 (Perseus, Yonge) ch. 96](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=96)
+- [Oppian, Halieutica 3.529-575; Strabo/Polybius on Messina (Loeb intro)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## European anchovy — *Engraulis encrasicolus* — γαύρος (gavros)
+
+**Ancient name:** ἀφύη (aphye, "small fry", the usual Attic word) and ἐγκρασίχολος (enkrasicholos) — Athenaeus 7 (Yonge ch. 22-24): many kinds of aphye, one "called the encrasicholus"; the aphye of Phalerum was proverbially the best (ch. 24).
+
+**Family:** Engraulidae
+
+**Size:** Max 20 cm SL; common 13.5 cm SL; max age 5 years (FishBase).
+
+**Description:** A slender silver fish with a blue-green back, a pointed snout overhanging a very large mouth that reaches back behind the eye, and a single short dorsal fin. Forms huge schools in coastal and brackish waters, tolerating low salinity in gulfs and lagoons (FishBase: marine, brackish, pelagic-neritic); filter-feeds on plankton.
+
+**Habitat:** Coastal pelagic; abundant in the productive North Aegean (Thermaikos Gulf, Thracian Sea).
+
+**Fishing (where, how):** The backbone of the Greek purse-seine (gri-gri) fleet, fished at night with lights; also taken by lampara nets, pelagic trawls and beach seines (Wikipedia). The main Greek grounds are the North Aegean gulfs.
+
+**Season:** Spring to autumn; Greek purse seining for small pelagics observes a winter closure (dates not verified here).
+
+**Eating:** Fried whole (γαύρος τηγανητός), marinated raw in vinegar (γαύρος μαρινάτος), or baked with tomato and oregano (γαύρος στο φούρνο); Archestratus' advice on frying survives in Athenaeus ("put them into a pan which is already hot, and take them off as soon as they hiss" — hence the proverb "Anchovy, look at the fire").
+
+**History:** Athenaeus 7 (Yonge ch. 22-24) discusses aphye at length: Aristotle's idea that one kind (aphritis) is born of sea-foam, the kind called encrasicholus, the fame of the anchovies of Phalerum, and Archestratus on cooking them. Oppian, Halieutica 1.762-797 (aphya born of the sea-slime) and 4.468-503 (the aphya fishery) (Mair's analysis).
+
+**Modern history:** Least Concern (IUCN 2013 per FishBase). Anchovy and sardine dominate Greek landings by weight; the North Aegean stocks are assessed jointly by GFCM/HCMR (detail not verified here).
+
+**IUCN status:** Least Concern (IUCN, assessed 23 May 2013, per FishBase).
+
+**Image:** [European anchovies (Engraulis encrasicolus) on a market slab, Setúbal.](https://commons.wikimedia.org/wiki/File%3ABoquerones_%28Engraulis_encrasicolus%29%2C_Set%C3%BAbal%2C_Portugal%2C_2020-08-01%2C_DD_16.jpg) — author: Diego Delso; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/d/d0/Boquerones_%28Engraulis_encrasicolus%29%2C_Set%C3%BAbal%2C_Portugal%2C_2020-08-01%2C_DD_16.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH
+- iucn: HIGH
+- fishing: HIGH for gear (Wikipedia); MEDIUM for Greek grounds
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH
+
+**Not verified / open points for this entry:**
+
+- Greek winter closure for purse seines (often cited as mid-December to end of February) not verified.
+
+**Sources:**
+
+- [FishBase: Engraulis encrasicolus](https://www.fishbase.se/summary/Engraulis-encrasicolus.html)
+- [Wikipedia: European anchovy](https://en.wikipedia.org/wiki/European_anchovy)
+- [Athenaeus 7 (Perseus, Yonge) ch. 22-24](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=22)
+- [Oppian, Halieutica 1.762-797; 4.468-503 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## European pilchard (sardine) — *Sardina pilchardus* — σαρδέλα (sardela)
+
+**Ancient name:** τριχίς / τριχίας (trichis, trichias) and, in later Greek, σαρδίνη — Athenaeus 7 (Yonge ch. 60 "trichides"; ch. 137 Epaenetus: "the chalcides, which they also call sardini"). Identification of the ancient small-fry names with modern species is approximate.
+
+**Family:** Clupeidae
+
+**Size:** Max 27.5 cm SL; common 20 cm SL; max age 15 years (FishBase).
+
+**Description:** A silvery, laterally compressed clupeid with a bluish back, a row of dark spots along the upper flank, and radiating ridges on the gill cover. Pelagic and schooling in coastal waters (FishBase: marine, brackish, pelagic-neritic); feeds on plankton; spawns in the cooler months.
+
+**Habitat:** Coastal pelagic; North Aegean gulfs and the Gulf of Kalloni on Lesbos are well-known Greek grounds.
+
+**Fishing (where, how):** Mainly caught with purse seines and lampara nets, also with high-opening bottom trawls (Wikipedia). In Greece it is the second pillar of the gri-gri fleet after anchovy.
+
+**Season:** Summer and early autumn are the traditional sardine months; a winter closure applies to purse seining (dates not verified here).
+
+**Eating:** Grilled (σαρδέλες ψητές — listed among classic Greek dishes on Wikipedia "Greek cuisine"), salted (σαρδέλες παστές), or baked; the salted "papalina" sardines of Kalloni, Lesbos, are a famous meze with ouzo (regional reputation; not source-verified here).
+
+**History:** Small salted fish (tarichos) were a staple of the ancient diet; Athenaeus 7 records the trichides among cheap fried fish ("food fit for freed men; trichides and squids", Yonge ch. 65) and the name sardini for chalcides (ch. 137).
+
+**Modern history:** Least Concern (IUCN 2013 per FishBase), but Wikipedia notes it is "one of the most heavily impacted species" by Mediterranean fisheries.
+
+**IUCN status:** Least Concern (IUCN, assessed 20 May 2013, per FishBase).
+
+**Image:** [Fresh sardines (Sardina pilchardus) on a Mediterranean fish market.](https://commons.wikimedia.org/wiki/File%3ASardines%2C_fish_market_in_Vieux-Port_of_Marseille.jpg) — author: Philippe Alès; licence: **CC BY-SA 3.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/0/04/Sardines%2C_fish_market_in_Vieux-Port_of_Marseille.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: MEDIUM - ancient small-fish names are hard to map
+- history: MEDIUM
+- iucn: HIGH
+- fishing: HIGH for gear
+- cooking: MEDIUM
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Kalloni (Lesbos) sardine/papalina tradition not source-verified.
+- Sardine photo is a market shot (Marseille), not a scientific portrait; a better Aegean sardine photo could be sought.
+
+**Sources:**
+
+- [FishBase: Sardina pilchardus](https://www.fishbase.se/summary/Sardina-pilchardus.html)
+- [Wikipedia: European pilchard](https://en.wikipedia.org/wiki/European_pilchard)
+- [Wikipedia: Greek cuisine (sardeles psites)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- [Athenaeus 7 (Perseus, Yonge) ch. 60, 65, 137](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=137)
+
+---
+
+## Atlantic mackerel & Atlantic chub mackerel — *Scomber scombrus; Scomber colias* — σκουμπρί (S. scombrus); κολιός (S. colias) (skoumbri; kolios)
+
+**Ancient name:** σκόμβρος (skombros) and κολίας (kolias) — Athenaeus 7 (Yonge ch. 116): Icesius says "that species of tunny called scombrus is smaller in size, but more nutritious, than the species called colias"; ch. 27: Aristotle on the colias "marked transversely". Mair (Loeb Oppian) note: "Scomber colias, M.G. κολιός ... a proverb says: everything in its season, and the colios in August".
+
+**Family:** Scombridae
+
+**Size:** S. scombrus: max 60 cm FL, 3.4 kg, common 30 cm (FishBase). S. colias: a similar-sized fish (FishBase max length not captured this session).
+
+**Description:** Both are streamlined, fast schooling mackerels with wavy dark bars on a blue-green back and a deeply forked tail. The Atlantic mackerel has a plain silver belly and no swim bladder; the chub mackerel has a swim bladder and its lower flanks are marked with dusky spots and blotches. In the warm Aegean the chub mackerel (kolios) is the more abundant of the two, the Atlantic mackerel being commoner in cooler northern waters (Wikipedia distributions; FishBase: pelagic-neritic).
+
+**Habitat:** Coastal pelagic, schooling; the chub mackerel throughout the Aegean, the Atlantic mackerel mostly in the north.
+
+**Fishing (where, how):** Purse seine (gri-gri) at night with lights, together with anchovy and sardine; also gill-nets and handlines/trolling from small boats.
+
+**Season:** Summer to autumn; the Greek proverb quoted by Mair puts the kolios in August.
+
+**Eating:** Grilled whole (σκουμπρί/κολιός σχάρας), baked with tomato and onion (κολιός στο φούρνο / πλακί), or salt-cured; in the Aegean islands sun-dried, salted mackerel "goúna" (γούνα) is a delicacy — split, gutted and dried in the sun for a day, then grilled (Wikipedia "Atlantic chub mackerel").
+
+**History:** Athenaeus 7 (Yonge ch. 116) compares the scombrus and colias, and quotes Epicharmus on the sea-swallows and mormyri that are "larger than the coliae and the scombri, but less than ... thynnides". Oppian, Halieutica 3.576-595 describes catching mackerel (Mair's analysis and index "Scombros or Mackerel, H. 1.101, 3.578-595"). Pliny, NH 32.146 lists the colias among fish (Mair's note).
+
+**Modern history:** Both species Least Concern (IUCN 2011/2022 per FishBase and Wikipedia); the chub mackerel has been recognised as a separate Atlantic species from S. japonicus since the 2000s (Wikipedia).
+
+**IUCN status:** Least Concern for both (IUCN; FishBase: S. scombrus assessed 1 June 2022; S. colias Least Concern per Wikipedia).
+
+**Image:** [A school of Atlantic chub mackerel (Scomber colias).](https://commons.wikimedia.org/wiki/File%3AScomber_colias_Tenerife.jpg) — author: benjobson (iNaturalist); licence: **CC BY 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/3/35/Scomber_colias_Tenerife.jpg
+
+**Confidence:**
+
+- size: HIGH for S. scombrus; S. colias size not captured
+- ancient: HIGH
+- history: HIGH
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: HIGH for gouna (Wikipedia); rest general
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- S. colias maximum size (FishBase gives ca. 64 cm) not captured this session.
+- Relative abundance of the two species in the Aegean is stated from general knowledge.
+
+**Sources:**
+
+- [FishBase: Scomber scombrus](https://www.fishbase.se/summary/Scomber-scombrus.html)
+- [FishBase: Scomber colias](https://www.fishbase.se/summary/Scomber-colias.html)
+- [Wikipedia: Atlantic chub mackerel (gouna)](https://en.wikipedia.org/wiki/Atlantic_chub_mackerel)
+- [Wikipedia: Atlantic mackerel](https://en.wikipedia.org/wiki/Atlantic_mackerel)
+- [Athenaeus 7 (Perseus, Yonge) ch. 27, 116](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=116)
+- [Oppian, Halieutica 3.576-595 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Striped red mullet & red mullet — *Mullus surmuletus; Mullus barbatus* — μπαρμπούνι (M. surmuletus); κουτσομούρα (M. barbatus) (barbouni; koutsomoura)
+
+**Ancient name:** τρίγλη (trigle) — Athenaeus 7 (Yonge ch. 21 "the bearded mullet"; ch. 6 and 46 "mullets", "an Hymettian mullet"); Oppian, Halieutica 3.432-442 (Mair: "Red Mullet"). Mair's glossary: τρίγλη = Mullus barbatus/surmuletus.
+
+**Family:** Mullidae
+
+**Size:** M. surmuletus: max 40 cm SL, 1 kg, common 25 cm, max age 11 years; M. barbatus: similar, usually smaller (FishBase).
+
+**Description:** Rosy-red goatfishes with two long chin barbels used to probe the sea-bed for worms, crustaceans and molluscs. M. surmuletus (barbouni) is the "striped" mullet of rocky and gravelly bottoms, with a yellow stripe along the flank and a banded first dorsal fin; M. barbatus (koutsomoura) has a steeper, almost vertical snout and lives on mud and sand, where trawlers take it in quantity (FishBase: demersal, oceanodromous; Wikipedia "Red mullet").
+
+**Habitat:** Demersal; surmuletus on rock, gravel and seagrass edges 5-100 m; barbatus on soft bottoms to ~300 m.
+
+**Fishing (where, how):** Barbouni is taken by trammel nets (δίχτυα) and gill-nets from small boats on rocky coasts; koutsomoura is a mainstay of the Greek bottom-trawl (μηχανότρατα) fishery, which in Greek waters is closed in the summer months (dates not verified here).
+
+**Season:** Year-round; trammel-net barbouni are best in late summer and autumn.
+
+**Eating:** Almost always fried whole (μπαρμπούνια τηγανητά) or grilled with ladolemono; small koutsomoura are fried crisp.
+
+**History:** The trigle was a fish of the gods' tables and of Roman extravagance: Wikipedia "Red mullet" summarises the Roman mania — reared in ponds, "specimens were sometimes sold for their weight in silver", Pliny citing an enormous price for a single fish, and the satirists (Juvenal, Martial) mocking it. Athenaeus 7 quotes Antiphanes' cook demanding "an Hymettian mullet" (ch. 46) and Eratosthenes' "bearded mullet" (ch. 21). Oppian, Halieutica 3.432-442 treats catching the red mullet.
+
+**Modern history:** Both species Least Concern (IUCN 2014 per FishBase). Trawl-caught M. barbatus is one of the key demersal stocks assessed for the Aegean by GFCM/HCMR.
+
+**IUCN status:** Least Concern for both (IUCN, assessed 14 July 2014, per FishBase; M. surmuletus Carpenter et al. 2015).
+
+**Image:** [Striped red mullet (Mullus surmuletus) caught in the Mediterranean during a MEDITS survey.](https://commons.wikimedia.org/wiki/File%3ARouget_de_roche_%28Mullus_surmuletus%29_%28Ifremer_00694-80605%29.jpg) — author: Isabelle Cheret (IFREMER); licence: **CC BY 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/6/68/Rouget_de_roche_%28Mullus_surmuletus%29_%28Ifremer_00694-80605%29.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH for Athenaeus/Oppian; Roman anecdotes via Wikipedia (MEDIUM: Pliny NH 9.30-31 not read directly)
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Aristotle HA 5.9 (543a) "spawns three times a year, hence the name" not verified.
+- Trigle sacred to Hecate (Athenaeus 7.325) not located this session.
+- Greek trawl closure dates (usually 1 June-30 September) not verified.
+
+**Sources:**
+
+- [FishBase: Mullus surmuletus](https://www.fishbase.se/summary/Mullus-surmuletus.html)
+- [FishBase: Mullus barbatus](https://www.fishbase.se/summary/Mullus-barbatus.html)
+- [IUCN Red List: Mullus surmuletus (2015)](https://www.iucnredlist.org/species/198674/42691804)
+- [Wikipedia: Red mullet (Roman history)](https://en.wikipedia.org/wiki/Red_mullet)
+- [Athenaeus 7 (Perseus, Yonge) ch. 6, 21, 46](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=46)
+- [Oppian, Halieutica 3.432-442 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Gilthead sea bream — *Sparus aurata* — τσιπούρα (tsipoura)
+
+**Ancient name:** χρύσοφρυς (chrysophrys, "golden-brow") — Athenaeus 7 (Yonge ch. 20-21): Callimachus calls the chrysophrys the "sacred fish"; Eratosthenes' "swift sacred fish with golden brows"; ch. 68 Epicharmus "the hippurus, and bright chrysophrys".
+
+**Family:** Sparidae
+
+**Size:** Max 70 cm TL, 17.2 kg; common 35 cm SL; max age 14 years (FishBase).
+
+**Description:** A deep-bodied silver bream with a golden bar between the eyes (the "gilt head"), a dark blotch at the start of the lateral line and a red spot on the gill cover. Lives over sand, seagrass and rock in coastal waters, entering lagoons and estuaries in spring (FishBase: marine, brackish, demersal); crushes mussels, clams and crabs with its molar-like teeth. Protandrous hermaphrodite — mature males become females in later life (Wikipedia).
+
+**Habitat:** Coastal, brackish-tolerant; lagoons and estuaries to ~30 m (deeper in winter).
+
+**Fishing (where, how):** Wild tsipoura are caught by handline, trammel nets and longlines around lagoons and river mouths and by spearfishers; but most tsipoura eaten today are farmed in sea cages.
+
+**Season:** Wild fish best in autumn as they leave the lagoons; farmed year-round.
+
+**Eating:** Grilled whole (τσιπούρα σχάρας) with ladolemono — the archetypal taverna fish — or baked with potatoes, lemon and oregano (τσιπούρα στο φούρνο), or salt-crusted.
+
+**History:** Athenaeus 7 (Yonge ch. 20-21) preserves the debate over which fish Homer's "sacred fish" was — Callimachus said the chrysophrys. Oppian lists the gilt-head among fish taken on the maenis as bait (Halieutica 3.169-204). Ancient authors associated the chrysophrys with Aphrodite (often stated; not verified this session).
+
+**Modern history:** The species that built modern Greek aquaculture: Mediterranean cage farming took off in the late 1980s and now dwarfs wild catches; Turkey is the largest producer followed by Greece (Wikipedia "Gilt-head bream"). Least Concern (IUCN 2014).
+
+**IUCN status:** Least Concern (IUCN, Russell et al. 2014).
+
+**Image:** [Gilthead sea bream (Sparus aurata) caught on rod and line, Marseille.](https://commons.wikimedia.org/wiki/File%3ADaurade-royale%2C_Surfcasting_2017_Marseille-France.jpg) — author: Jessy138; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/c/ca/Daurade-royale%2C_Surfcasting_2017_Marseille-France.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH for Athenaeus; Aphrodite link LOW
+- modern: HIGH (Wikipedia)
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Greek farmed production tonnage (HAPO/FEAP figures) not verified.
+- Aphrodite association not verified in a primary text.
+
+**Sources:**
+
+- [FishBase: Sparus aurata](https://www.fishbase.se/summary/Sparus-aurata.html)
+- [IUCN Red List: Sparus aurata (2014)](https://www.iucnredlist.org/species/170253/1302459)
+- [Wikipedia: Gilt-head bream](https://en.wikipedia.org/wiki/Gilt-head_bream)
+- [Athenaeus 7 (Perseus, Yonge) ch. 20-21, 68](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=20)
+- [Oppian, Halieutica 3.169-204 baits (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## European sea bass — *Dicentrarchus labrax* — λαβράκι (lavraki)
+
+**Ancient name:** λάβραξ (labrax) — Oppian, Halieutica 3.121-131 (Mair: "Basse"); Mair's Loeb glossary "Λάβραξ, Basse, Labrax lupus"; Archestratus praised the labrax of Miletus (Athenaeus 7; Yonge renders it "Milesian pike", ch. 87 — identification standard but the Greek was not checked this session).
+
+**Family:** Moronidae
+
+**Size:** Max 103 cm TL, 12 kg; common 50 cm; max age 30 years (FishBase).
+
+**Description:** A sleek silver predator with two separate dorsal fins (the first spiny), a large mouth and a dark spot on the gill cover. Juveniles school in estuaries and lagoons; adults are solitary hunters of prawns, crabs and small fish along rocky shores, river mouths and lagoons in summer, moving offshore in winter (Wikipedia; FishBase: marine, freshwater, brackish, demersal).
+
+**Habitat:** Coastal, estuaries and lagoons (e.g. Messolonghi, Amvrakikos); rocky shores and surf.
+
+**Fishing (where, how):** Wild lavraki are caught by handline and rod from shore and boat, trammel nets, longlines and spearguns, and in the barrier-traps (ιβάρια) of the western Greek lagoons; the bulk of the market is farmed in cages.
+
+**Season:** Autumn and winter for wild fish; farmed year-round.
+
+**Eating:** Grilled whole with ladolemono, or baked; wild lagoon fish are the prized version. Archestratus praised the Milesian labrax (Athenaeus 7).
+
+**History:** Oppian, Halieutica 3.121-131 tells how the basse, hooked, drives its head into the sand to break free (Mair's analysis); Athenaeus 7 quotes Eubulus' "noble head of the Milesian pike [labrax]" and the fame of the fish from the Gaeson lagoon near Miletus (ch. 87).
+
+**Modern history:** "The most important commercial fish widely cultured in the Mediterranean ... Greece, Turkey, Italy, Spain, Croatia, and Egypt are the most important farming countries"; wild catches are modest (8,500-11,900 t/yr, 2000-2009). Listed Near Threatened by the IUCN due to a decreasing population (Wikipedia "European seabass"; FishBase: NT, assessed 3 March 2022).
+
+**IUCN status:** Near Threatened (IUCN, assessed 3 March 2022, per FishBase).
+
+**Image:** [European sea bass (Dicentrarchus labrax).](https://commons.wikimedia.org/wiki/File%3ABar_%28Dicentrarchus_labrax%29_%28Ifremer_00735-84702%29.jpg) — author: Olivier Dugornay (IFREMER); licence: **CC BY 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/f/f3/Bar_%28Dicentrarchus_labrax%29_%28Ifremer_00735-84702%29.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH for labrax; MEDIUM for the Miletus/Archestratus attribution
+- history: MEDIUM
+- modern: HIGH
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Athenaeus "labrax the wisest of fish" (7.310-311) not located this session.
+- Greek farmed sea-bass tonnage not verified.
+
+**Sources:**
+
+- [FishBase: Dicentrarchus labrax](https://www.fishbase.se/summary/Dicentrarchus-labrax.html)
+- [Wikipedia: European seabass](https://en.wikipedia.org/wiki/European_seabass)
+- [Athenaeus 7 (Perseus, Yonge) ch. 87](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=87)
+- [Oppian, Halieutica 3.121-131 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Dusky grouper — *Epinephelus marginatus* — ροφός (rofos)
+
+**Ancient name:** ὀρφώς / ὀρφός (orphos) — Athenaeus 7 (Yonge ch. 45 Numenius: "the orphus, the sea-grayling too"; ch. 24 "the ellops and the orphus"); Mair's Loeb glossary: "Ὀρφώς, Great Sea-perch, the Merou, Serranus (Epinephelus) gigas".
+
+**Family:** Serranidae (Epinephelidae)
+
+**Size:** Max 150 cm TL, 60 kg; max reported age 60 years (FishBase).
+
+**Description:** A massive, big-mouthed reef fish, brown with pale yellowish blotches, that lives in caves and crevices of rocky coasts from a few metres to about 200 m. A protogynous hermaphrodite: all begin life as females, breeding from about 5 years, and change into males between their 9th and 16th years (Wikipedia); slow-growing and long-lived, ambushing fish, octopus and crabs (FishBase: reef-associated).
+
+**Habitat:** Rocky reefs and caves, 5-200 m.
+
+**Fishing (where, how):** Taken on handlines and bottom longlines and, above all, by spearfishers, whose pressure on this slow, curious, territorial fish is the main reason for its decline; Greek rules set minimum sizes (not verified here).
+
+**Season:** Year-round; summer is the spearfishing season.
+
+**Eating:** Grouper is the king of the fish soup: ροφός κακαβιά / ψαρόσουπα, or baked in slices (ροφός στο φούρνο) and grilled steaks.
+
+**History:** The orphos appears in Numenius' fishing poem and Athenaeus' lists of fine fish (7, ch. 24, 45). Oppian describes the orphos/merou; Mair's note on Halieutica 3 identifies the "hieros ichthys" with it in some readings (Loeb intro).
+
+**Modern history:** Listed Vulnerable by the IUCN (population reduction >50% over three generations); France banned spearfishing of it for ten years and marine protected areas have been created for it (Wikipedia "Epinephelus marginatus").
+
+**IUCN status:** Vulnerable (IUCN 3.1, per Wikipedia species box; assessment year not captured).
+
+**Image:** [Dusky grouper (Epinephelus marginatus) on a rocky reef, Cabo de Palos, Spain.](https://commons.wikimedia.org/wiki/File%3AMero_%28Epinephelus_marginatus%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-14%2C_DD_48.jpg) — author: Diego Delso; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/9/91/Mero_%28Epinephelus_marginatus%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-14%2C_DD_48.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: MEDIUM
+- modern: HIGH
+- iucn: MEDIUM - category from Wikipedia species box; year not captured
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Aristotle HA on the orphos (long-lived, hides in holes) not verified.
+- EU/Greek minimum landing size (commonly 45 cm) not verified.
+
+**Sources:**
+
+- [FishBase: Epinephelus marginatus](https://www.fishbase.se/summary/Epinephelus-marginatus.html)
+- [Wikipedia: Epinephelus marginatus](https://en.wikipedia.org/wiki/Epinephelus_marginatus)
+- [Athenaeus 7 (Perseus, Yonge) ch. 24, 45](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=45)
+- [Mair, Loeb Oppian glossary (orphos)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Common dentex — *Dentex dentex* — συναγρίδα (synagrida)
+
+**Ancient name:** συναγρίς / συνόδων (synagris, synodon) — Athenaeus 7 (Yonge ch. 27 Numenius "the white synodons"; ch. 46 Antiphanes "a well-roasted synodon"; ch. 121 "There is also the syagris ... mentioned by Epicharmus"); Mair, Loeb Oppian index "Synodon or Dentex, H. 1.186?, 3.610-619".
+
+**Family:** Sparidae
+
+**Size:** Max 100 cm TL, 14.3 kg; common 50 cm (FishBase).
+
+**Description:** A powerful, big-headed sparid with canine teeth at the front of the jaws (hence the name), silvery-blue with a scatter of dark spots on the back and a steep forehead in old fish. A solitary or small-group predator of rocky bottoms and drop-offs to about 200 m (FishBase: benthopelagic), hunting fish and cephalopods.
+
+**Habitat:** Rocky and mixed bottoms, 15-200 m, often near steep coasts.
+
+**Fishing (where, how):** The prize of Greek trolling and jigging with live or artificial bait, of bottom longlines, and of spearfishers; also taken in trammel nets.
+
+**Season:** Spring and autumn; spawns in spring.
+
+**Eating:** Baked whole with potatoes (συναγρίδα στο φούρνο) or à la Spetsiota (with tomato, garlic and breadcrumbs); large fish grilled in slices.
+
+**History:** Oppian, Halieutica 3.610-619: the dentex "travel in separate bands, like companies of soldiers"; when one is hooked, the others take courage and follow it to the hook, "rejoicing even while they are being caught" (Mair's translation, read this session). Athenaeus 7 quotes Antiphanes' "well-roasted synodon" (ch. 46).
+
+**Modern history:** Vulnerable on the IUCN Red List: "an important target species for fisheries and the population has shown large declines" (Wikipedia "Common dentex"; FishBase: VU A2bd, assessed 2009).
+
+**IUCN status:** Vulnerable (IUCN, Carpenter & Russell 2014; FishBase: assessed 17 Aug 2009).
+
+**Image:** [Common dentex (Dentex dentex), Cabo de Palos, Spain.](https://commons.wikimedia.org/wiki/File%3ADent%C3%B3n_com%C3%BAn_%28Dentex_dentex%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-15%2C_DD_59.jpg) — author: Diego Delso; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/9/9c/Dent%C3%B3n_com%C3%BAn_%28Dentex_dentex%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-15%2C_DD_59.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Sources:**
+
+- [FishBase: Dentex dentex](https://www.fishbase.se/summary/Dentex-dentex.html)
+- [IUCN Red List: Dentex dentex (2014)](https://www.iucnredlist.org/species/170245/1300534)
+- [Wikipedia: Common dentex](https://en.wikipedia.org/wiki/Common_dentex)
+- [Athenaeus 7 (Perseus, Yonge) ch. 27, 46, 121](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=46)
+- [Oppian, Halieutica 3.610-619 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Bogue — *Boops boops* — γόπα (gopa)
+
+**Ancient name:** βόαξ / βῶξ (boax, box), later βόωψ (boops) — Athenaeus 7 (Yonge ch. 27): the Attic writers call it boax; "they derived their name from the noise (boē) which they make"; Aristophanes of Byzantium argued it should be boops, "since, though it is but a little fish, it has very large eyes"; Epicharmus lists "the boax, the smarides, anchovies, crabs and lobsters".
+
+**Family:** Sparidae
+
+**Size:** Max 40 cm TL, 455 g; common 20 cm; max age 11 years (FishBase).
+
+**Description:** A slim, big-eyed, silvery sparid with three or four faint golden lines along the flank. Forms dense schools over sand, mud and seagrass from the shore to about 350 m, rising toward the surface at night; omnivorous, taking plankton and small invertebrates (FishBase: demersal, oceanodromous).
+
+**Habitat:** Coastal shelf, all bottoms; schooling; common everywhere in the Aegean.
+
+**Fishing (where, how):** Caught in great quantity by purse seine at night under lights, by trawl, and by every child with a handline from a jetty; much of the catch goes for bait and fishmeal (Wikipedia).
+
+**Season:** Year-round.
+
+**Eating:** Cheap taverna fish: fried (γόπες τηγανητές) or grilled and dressed with oil and vinegar, or marinated (γόπα μαρινάτη). Its flesh spoils quickly, so it must be eaten fresh (Wikipedia).
+
+**History:** Athenaeus 7 (Yonge ch. 27) devotes a chapter to the box/boops, its etymology (noise vs. bull's eyes), Aristotle's note that it is "marked on the back", and Aristophanes' joke "having had a bellyful of boaces, I turn'd my steps towards home". Oppian lists the bogue as the bait beloved of the dentex (Halieutica 3.169-204).
+
+**Modern history:** Least Concern (IUCN 2009 per FishBase). Abundant and used as an indicator species for microplastic pollution (Wikipedia).
+
+**IUCN status:** Least Concern (IUCN, assessed 14 Aug 2009, per FishBase).
+
+**Image:** [Bogue (Boops boops), Teno-Rasca marine strip, Tenerife.](https://commons.wikimedia.org/wiki/File%3ABoga_%28Boops_boops%29%2C_franja_marina_Teno-Rasca%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-08%2C_DD_99.jpg) — author: Diego Delso; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/d/d6/Boga_%28Boops_boops%29%2C_franja_marina_Teno-Rasca%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-08%2C_DD_99.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH
+- iucn: HIGH
+- fishing: MEDIUM
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Sources:**
+
+- [FishBase: Boops boops](https://www.fishbase.se/summary/Boops-boops.html)
+- [Wikipedia: Boops boops](https://en.wikipedia.org/wiki/Boops_boops)
+- [Athenaeus 7 (Perseus, Yonge) ch. 27](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=27)
+- [Oppian, Halieutica 3.169-204 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Picarel — *Spicara smaris* — μαρίδα (marida)
+
+**Ancient name:** μαινίς (mainis) and σμαρίς (smaris) — Athenaeus 7 (Yonge ch. 92): Speusippus says "both the boax and the smaris resemble the sprat"; Epicharmus "When you see many boaces and smarides"; Epaenetus "the smaris, which some people call cynoseuna". Oppian, Halieutica 3.169-204 uses the maenis as bait for the gilt-head (Mair).
+
+**Family:** Sparidae (formerly Centracanthidae)
+
+**Size:** Max 24.2 cm TL, 55 g; common 14 cm (FishBase).
+
+**Description:** A small, slender, silvery fish with a dark rectangular spot on the flank; breeding males turn blue-spotted. Schools over seagrass, sand and mud from the shallows to about 130 m and feeds on zooplankton (FishBase: pelagic-neritic). A protogynous sequential hermaphrodite: individuals mature as females and later become males; all fish above a certain size are male (Wikipedia "Spicara smaris").
+
+**Habitat:** Coastal, over Posidonia meadows and soft bottoms.
+
+**Fishing (where, how):** Taken by purse seine, trawl and beach seine and by small-boat trammel nets; a staple of the humble catch.
+
+**Season:** Year-round; best in winter and spring.
+
+**Eating:** Fried crisp and eaten whole (μαρίδες τηγανητές) with lemon — the classic cheap ouzo meze; also marinated.
+
+**History:** The mainis was the proverbial poor man's fish of Attic comedy; Athenaeus 7 (ch. 92) collects the references to the smaris/mainis. Oppian pairs the maenis with the gilt-head as bait.
+
+**Modern history:** Least Concern (IUCN 2009 per FishBase).
+
+**IUCN status:** Least Concern (IUCN, assessed 22 Aug 2009, per FishBase).
+
+**Image:** [Picarel (Spicara smaris), Kaštela, Croatia.](https://commons.wikimedia.org/wiki/File%3ASpicara_smaris_Croatia.jpg) — author: echosmama (iNaturalist); licence: **CC BY 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/4/49/Spicara_smaris_Croatia.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: MEDIUM - "poor man's fish" is the standard scholarly gloss; Athenaeus chapter read
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Aristotle HA 8.30 (607b) on the mainis changing colour in season not verified.
+
+**Sources:**
+
+- [FishBase: Spicara smaris](https://www.fishbase.se/summary/Spicara-smaris.html)
+- [Wikipedia: Spicara smaris](https://en.wikipedia.org/wiki/Spicara_smaris)
+- [Athenaeus 7 (Perseus, Yonge) ch. 92](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=92)
+- [Oppian, Halieutica 3.169-204 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Greater amberjack — *Seriola dumerili* — μαγιάτικο (magiatiko)
+
+**Ancient name:** No secure ancient Greek name; the modern name means "the May fish" (Μάιος), from its inshore appearance in late spring (etymology commonly given; not source-verified here).
+
+**Family:** Carangidae
+
+**Size:** Max 190 cm TL, 80.6 kg; common 100 cm; max age 15 years (FishBase).
+
+**Description:** A big, streamlined jack with an olive-bronze back, an amber stripe along the flank and a dark diagonal band through the eye. Roams reefs, drop-offs and wrecks in small groups (FishBase: reef-associated, oceanodromous), hunting fish and squid at speed; Mediterranean spawning is in June-July (Wikipedia).
+
+**Habitat:** Reefs, drop-offs and open water, 20-360 m; juveniles under floating objects.
+
+**Fishing (where, how):** A top game fish: trolled or drifted with live bait (mackerel, bogue), vertical jigging, and the great trophy of Greek spearfishers; also longlines. Farmed experimentally in the Mediterranean since the 1980s (Wikipedia).
+
+**Season:** Late spring (May, hence the name) to autumn inshore.
+
+**Eating:** Grilled steaks or whole (μαγιάτικο σχάρας), or in soup; excellent raw as sashimi/crudo.
+
+**History:** Not securely identified in ancient texts (the ancient hippouros is the dolphinfish, not the amberjack).
+
+**Modern history:** Least Concern (IUCN 2015). An important commercial and aquaculture species in the Mediterranean since the 1980s (Wikipedia "Greater amberjack").
+
+**IUCN status:** Least Concern (IUCN, Smith-Vaniz et al. 2015; FishBase: assessed 7 Nov 2013).
+
+**Image:** [Adult greater amberjack (Seriola dumerili).](https://commons.wikimedia.org/wiki/File%3AFish4447_-_Flickr_-_NOAA_Photo_Library.jpg) — author: NOAA/NMFS/SEFSC Pascagoula Laboratory; Collection of Brandi Noble; licence: **Public domain**; direct file: https://upload.wikimedia.org/wikipedia/commons/7/78/Fish4447_-_Flickr_-_NOAA_Photo_Library.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: LOW - no attested ancient name found
+- iucn: HIGH
+- modern: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Etymology "May fish" not source-verified.
+- Greek aquaculture trials for amberjack not verified.
+
+**Sources:**
+
+- [FishBase: Seriola dumerili](https://www.fishbase.se/summary/Seriola-dumerili.html)
+- [IUCN Red List: Seriola dumerili (2015)](https://www.iucnredlist.org/species/198643/115341394)
+- [Wikipedia: Greater amberjack](https://en.wikipedia.org/wiki/Greater_amberjack)
+
+---
+
+## Common dolphinfish (mahi-mahi) — *Coryphaena hippurus* — κυνηγός / λαμπούκα (kynigos / lampouka)
+
+**Ancient name:** ἵππουρος (hippouros, "horse-tail") — Athenaeus 7 (Yonge ch. 68): "There is also a fish called the hippurus ... Dorion ... says that the hippurus is also called the coryphaena ... Numenius ... says that it keeps continually leaping out of the water; on which account it is also called the Tumbler"; Archestratus: "Th' hippurus of Carystus is the best". Oppian, Halieutica 4.404-436.
+
+**Family:** Coryphaenidae
+
+**Size:** Max 210 cm TL, 40 kg; common 100 cm; max age only 4 years (FishBase).
+
+**Description:** A brilliant, fast-growing pelagic fish — golden-green flanks flashing blue, a long dorsal fin running the length of the body, and a blunt, high forehead in males. Lives in warm surface waters, gathering under floating weed, wreckage and any drifting object (FishBase: marine, brackish, pelagic-neritic); feeds on flying fish, small pelagics and squid; matures within its first year (Wikipedia).
+
+**Habitat:** Offshore surface waters in summer and autumn; juveniles under floating objects.
+
+**Fishing (where, how):** Caught by trolling and by longline; the ancient technique described by Oppian — bundles of reeds floated on the sea to draw the shade-loving fish, then hooks — survives in the Maltese/Sicilian FAD fishery (kannizzati) using floating mats of palm leaves (Wikipedia "Mahi-mahi"). In the Aegean it is an autumn fish of the Cyclades and Dodecanese, taken on trolled lures.
+
+**Season:** Late summer to autumn (August-November).
+
+**Eating:** Grilled steaks (λαμπούκα σχάρας) or baked with tomato; the firm white flesh suits skewers.
+
+**History:** THE AKROTIRI FISHERMAN: the Late Bronze Age "Fisherman" fresco from the West House at Akrotiri, Thera (c. 1600-1500 BC) shows a naked youth holding two bunches of fish; the Commons file description and Wikipedia caption identify them as dolphinfish (Coryphaena hippurus), and this is the usual identification in the literature, though other authors have suggested mackerel or bonito (a scholarly review of the debate was not completed this session). Oppian, Halieutica 4.404-436 (read in Mair's Loeb text): shoals of hippurus follow drifting wreckage, and "the fishermen gather reeds and tie them together in bundles which they let down into the waves ... straightway the shade-loving tribes of the Hippurus gather in shoals and linger about delightedly rubbing their backs against the reeds. Then the fishers row to them ... and bait their hooks". Athenaeus 7 (ch. 68) preserves Aristotle on its spawning in spring, its alias coryphaena, its leaping ("the Tumbler") and Archestratus' praise of the hippurus of Carystus (Euboea).
+
+**Modern history:** Least Concern (IUCN 2010 per FishBase). A warm-water species increasingly common in the Aegean in late summer.
+
+**IUCN status:** Least Concern (IUCN, assessed 17 Sep 2010, per FishBase).
+
+**Image:** [The "Fisherman" fresco from the West House, Akrotiri (Thera), c. 1600-1500 BC: a youth holding strings of dolphinfish.](https://commons.wikimedia.org/wiki/File%3AFresco_of_a_fisherman%2C_Akrotiri%2C_Greece.jpg) — author: Anonymous Theran painter, c. 1600-1500 BC; photograph uploaded by Yann Forget; licence: **Public domain (CC-PD-Mark 1.0)**; direct file: https://upload.wikimedia.org/wikipedia/commons/a/ae/Fresco_of_a_fisherman%2C_Akrotiri%2C_Greece.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH for Oppian and Athenaeus (texts read); MEDIUM for the fresco species identification (Commons/Wikipedia caption; scholarly literature not reviewed)
+- iucn: HIGH
+- fishing: HIGH for the Oppian/kannizzati link; Aegean detail MEDIUM
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - file page read via WebFetch: CC-PD-Mark; direct URL from file page
+
+**Not verified / open points for this entry:**
+
+- Which scholars (Marinatos, Doumas, Mylona) identify the fresco fish as Coryphaena vs. other species could not be checked.
+- A second photo (living fish) is offered in sources: File:Coryphaenahippurus.JPG, CC BY-SA 3.0, by Citron.
+
+**Sources:**
+
+- [FishBase: Coryphaena hippurus](https://www.fishbase.se/summary/Coryphaena-hippurus.html)
+- [Wikipedia: Mahi-mahi (Akrotiri caption; kannizzati)](https://en.wikipedia.org/wiki/Mahi-mahi)
+- [Commons: Fresco of a fisherman, Akrotiri (PD)](https://commons.wikimedia.org/wiki/File%3AFresco_of_a_fisherman%2C_Akrotiri%2C_Greece.jpg)
+- [Athenaeus 7 (Perseus, Yonge) ch. 68](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=68)
+- [Oppian, Halieutica 4.404-436 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+- [Commons: Coryphaena hippurus photo (CC BY-SA 3.0, Citron) — alternative image](https://commons.wikimedia.org/wiki/File%3ACoryphaenahippurus.JPG)
+
+---
+
+## European eel — *Anguilla anguilla* — χέλι (cheli)
+
+**Ancient name:** ἔγχελυς (enchelys) — Aristophanes, Acharnians c. 880-894 (the Boeotian brings "eels from the Copaic lake"; Dicaeopolis: "you, who bring me the most delicious of fish"); Athenaeus 7 (Yonge ch. 12: "when you're dead, you cannot then eat eels"); Oppian, Halieutica 4.450-467.
+
+**Family:** Anguillidae
+
+**Size:** Females commonly 60-80 cm; max about 130 cm (FishBase max not captured this session; Wikipedia).
+
+**Description:** A snake-like catadromous fish that spends years in rivers, lakes and lagoons before turning silver and migrating to the Sargasso Sea to spawn; the larvae drift back across the Atlantic (Wikipedia). Nocturnal, feeding on worms, fish and crustaceans (Wikipedia). Lives in fresh, brackish and marine waters (FishBase).
+
+**Habitat:** Lagoons and river deltas of the Aegean (Evros, Nestos, Vistonida, Porto Lagos), lakes and rivers.
+
+**Fishing (where, how):** Trapped in the barrier-traps and fyke nets of Greek lagoons, mostly in autumn as silver eels run to the sea; the fishery is now tightly regulated under the EU eel recovery regulation.
+
+**Season:** Autumn migration.
+
+**Eating:** Grilled (χέλι σχάρας), smoked, or stewed; the lagoon towns of western Greece and Thrace keep the tradition.
+
+**History:** Lake Copais (Kopais) in Boeotia was famous for its eels: Aristophanes' Boeotian trader brings "eels from the Copaic lake" and Dicaeopolis greets the eel as "the eldest of my fifty Copaic virgins" (Acharnians, c. 880-894, read on Perseus); Pausanias 9.24.2: "the eels there are of great size and very pleasant to the palate" (read on Perseus). Aristotle, Historia Animalium 6.16 (570a): "Eels are not the issue of pairing, neither are they oviparous; nor was an eel ever found supplied with either milt or spawn ... Eels are derived from the so-called 'earth's guts' that grow spontaneously in mud" (MIT Classics translation, read this session) — the famous error that stood until the Sargasso Sea was found in the 20th century. Oppian, Halieutica 1.513-553 on the mating of eels and 4.450-467 on their capture (Mair's analysis).
+
+**Modern history:** Lake Copais was drained: a French company began in 1865 and went bankrupt in 1873; the British Lake Copais Co. Ltd finished the job by 1931 (Wikipedia "Lake Copais"). The species is Critically Endangered (IUCN, Pike et al. 2020; FishBase: CR A2bd+4bd, assessed 7 Nov 2018) after a collapse in glass-eel recruitment since the 1980s; the EU Eel Regulation (EC 1100/2007) requires national eel management plans (regulation number from memory; not verified this session).
+
+**IUCN status:** Critically Endangered (IUCN, Pike, Crook & Gollock 2020; FishBase: assessed 7 Nov 2018).
+
+**Image:** [European eel (Anguilla anguilla).](https://commons.wikimedia.org/wiki/File%3AAnguille_d%27Europe_%28Anguilla_anguilla%29_%28Ifremer_00673-78548%29.jpg) — author: Damien Delaunay (IFREMER); licence: **CC BY 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/1/18/Anguille_d%27Europe_%28Anguilla_anguilla%29_%28Ifremer_00673-78548%29.jpg
+
+**Confidence:**
+
+- size: MEDIUM - FishBase max not captured
+- ancient: HIGH
+- history: HIGH - all three primary passages read this session
+- modern: HIGH for Copais dates and IUCN; MEDIUM for EU regulation number
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Archestratus on Copais/Strymon eels (Athenaeus 7.298) not located in the chapters read.
+- Aristophanes Lysistrata 36, 702 eel references not checked.
+
+**Sources:**
+
+- [FishBase: Anguilla anguilla](https://www.fishbase.se/summary/Anguilla-anguilla.html)
+- [IUCN Red List: Anguilla anguilla (2020)](https://www.iucnredlist.org/species/60344/152845178)
+- [Wikipedia: European eel](https://en.wikipedia.org/wiki/European_eel)
+- [Wikipedia: Lake Copais](https://en.wikipedia.org/wiki/Lake_Copais)
+- [Aristophanes, Acharnians (Perseus, Eng.) card 860ff.](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0240:card=860)
+- [Pausanias 9.24.2 (Perseus)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0160:book=9:chapter=24)
+- [Aristotle, HA 6.16 (MIT Classics)](http://classics.mit.edu/Aristotle/history_anim.6.vi.html)
+- [Oppian, Halieutica 1.513-553; 4.450-467 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Common octopus — *Octopus vulgaris* — χταπόδι (chtapodi)
+
+**Ancient name:** πολύπους (polypous; Homeric πουλύπους) — Athenaeus 7 (Yonge ch. 100: the declension, with Homer's "As when a polypus is dragged from out his lair"); Epicharmus "we roasted plump anchovies ... and polypi" (ch. 6); Oppian, Halieutica 2.232-252 and 2.253-421 ("Poulpe").
+
+**Family:** Octopodidae
+
+**Size:** Mantle to about 25 cm, total length to over 1 m, weight commonly 1-3 kg, max ~10 kg (general reference values; SeaLifeBase not fetched this session).
+
+**Description:** Eight-armed, boneless, with a beak, three hearts and a large brain; master of colour and texture change. Lives in dens on rocky and mixed bottoms from the shore to about 200 m, hunting crabs, bivalves and fish at night; short-lived (1-2 years), the female guarding her eggs in the den until she dies (Wikipedia "Common octopus").
+
+**Habitat:** Rocky and mixed bottoms, tide-line to ~200 m; dens marked by shell middens.
+
+**Fishing (where, how):** Clay pots (στάμνες) strung on long lines — a technique going back to antiquity — plus modern plastic pots, trammel nets, trawls, and the spear or gaff of the shore fisherman; the catch is beaten on the rocks and hung to dry in the sun outside tavernas.
+
+**Season:** Autumn and winter for pots; year-round by hand.
+
+**Eating:** Sun-dried and grilled (χταπόδι σχάρας), boiled and dressed with vinegar (χταπόδι ξυδάτο — a Lenten classic), stewed with onions (χταπόδι στιφάδο) or with short pasta (χταπόδι με κοφτό μακαρονάκι). Htapodi sti schara is listed among the standard Greek dishes (Wikipedia "Greek cuisine").
+
+**History:** The octopus is the emblem of Minoan "Marine Style" pottery (c. 1500-1450 BC): the celebrated flask in the Heraklion Archaeological Museum wraps a single octopus around the whole vessel (Wikipedia "Minoan pottery"; Commons photo). Oppian, Halieutica 2.253-421 (read in Mair's translation) describes the three-way war of crayfish, moray and octopus: "the raging Muraena comes forth from her sea-washed rock ... The Poulpe ... twines around her limbs ... But the Muraena with sharp assault of teeth rends the Poulpe" — and the octopus' vain trick of clinging to a rock and taking its colour. Athenaeus 7 (ch. 100) treats the word polypous. Aristotle discusses the octopus at length in Historia Animalium 4.1 and 5.12/5.18 (sections not read this session).
+
+**Modern history:** Least Concern (IUCN, Allcock et al. 2018). Greece is among the largest octopus consumers in the EU; the stock is fished mainly by small-scale pots and nets.
+
+**IUCN status:** Least Concern (IUCN, Allcock, Headlam & Allen 2018).
+
+**Image:** [Minoan Marine Style flask with an octopus, c. 1500 BC, Heraklion Archaeological Museum (commonly identified as the Palaikastro flask).](https://commons.wikimedia.org/wiki/File%3AAMI_-_Oktopusvase.jpg) — author: Wolfgang Sauber; licence: **Public domain**; direct file: https://upload.wikimedia.org/wikipedia/commons/1/1e/AMI_-_Oktopusvase.jpg
+
+**Confidence:**
+
+- size: MEDIUM - reference values, not fetched
+- ancient: HIGH
+- history: HIGH for Oppian (read) and the Heraklion flask (Commons/Wikipedia); MEDIUM that the museum flask is the Palaikastro one; Aristotle sections not read
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: HIGH for htapodi sti schara (Wikipedia); rest general
+- image: HIGH - PD per Commons API; direct URL from API
+
+**Not verified / open points for this entry:**
+
+- Palaikastro provenance of the Heraklion octopus flask not verified.
+- Octopus on coins of Eretria not verified.
+- Pliny NH 9.46-48 giant octopus of Carteia not read.
+
+**Sources:**
+
+- [IUCN Red List: Octopus vulgaris (2018)](https://www.iucnredlist.org/species/162571/918906)
+- [Wikipedia: Common octopus](https://en.wikipedia.org/wiki/Common_octopus)
+- [Wikipedia: Minoan pottery (Marine Style flask with octopus)](https://en.wikipedia.org/wiki/Minoan_pottery)
+- [Wikipedia: Greek cuisine](https://en.wikipedia.org/wiki/Greek_cuisine)
+- [Athenaeus 7 (Perseus, Yonge) ch. 6, 100](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=100)
+- [Oppian, Halieutica 2.232-421 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+- [Commons: Octopus vulgaris photo (CC BY-SA 3.0, H. Zell) — alternative live image](https://commons.wikimedia.org/wiki/File%3AOctopus_vulgaris_03.jpg)
+
+---
+
+## European squid — *Loligo vulgaris* — καλαμάρι (kalamari)
+
+**Ancient name:** τευθίς (teuthis; the large kind τεῦθος, teuthos) — Mair, Loeb Oppian index "Teuthis, Squid or Calamary, H. 1.432, 3.166-168, 4.439-449"; Athenaeus 7 (Yonge ch. 59, 65, 87: "squids").
+
+**Family:** Loliginidae
+
+**Size:** Mantle length commonly 15-25 cm, max about 30-40 cm in males (Wikipedia "European squid"; SeaLifeBase not fetched).
+
+**Description:** A torpedo-shaped, translucent squid with rhomboid fins along two-thirds of the mantle, large eyes, eight arms and two long tentacles; jet-propelled and fast-growing, living about a year. Coastal, over sand and seagrass from the surface to ~500 m; hunts fish and crustaceans and is often cannibalistic (Wikipedia).
+
+**Habitat:** Coastal shelf; moves inshore to spawn in winter-spring.
+
+**Fishing (where, how):** Caught year-round as trawl bycatch and, seasonally, by small-scale and recreational fishers with a variety of gear (Wikipedia) — in Greece above all by jigging at night under lamps from small boats (καλαμαριέρες).
+
+**Season:** Autumn to spring, peaking in winter.
+
+**Eating:** Fried rings (καλαμαράκια τηγανητά), grilled whole, or stuffed with rice and herbs (καλαμάρι γεμιστό); the ancient cooks boiled it (Athenaeus 7, ch. 59).
+
+**History:** Athenaeus 7 quotes the comic poets on cheap squid ("food fit for freed men; trichides and squids", ch. 65) and the cookery writers on boiling squid and cuttlefish (ch. 59). Oppian describes the squid at Halieutica 1.432 and its capture at 4.439-449 (Mair's index).
+
+**Modern history:** IUCN Data Deficient (Allcock & Taite 2019). Adriatic annual catch ~1,000-1,500 t (Wikipedia).
+
+**IUCN status:** Data Deficient (IUCN, Allcock & Taite 2019).
+
+**Image:** [European squid (Loligo vulgaris).](https://commons.wikimedia.org/wiki/File%3AEuropean_Squid.jpg) — author: Vicmicallef; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/9/97/European_Squid.jpg
+
+**Confidence:**
+
+- size: MEDIUM
+- ancient: HIGH
+- history: MEDIUM
+- iucn: HIGH
+- fishing: HIGH (Wikipedia) + general for jigging
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Aristotle HA 4.1 teuthis vs teuthos not read this session.
+
+**Sources:**
+
+- [IUCN Red List: Loligo vulgaris (2019)](https://www.iucnredlist.org/species/190946/1961958)
+- [Wikipedia: European squid](https://en.wikipedia.org/wiki/European_squid)
+- [Athenaeus 7 (Perseus, Yonge) ch. 59, 65, 87](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=65)
+- [Oppian, Halieutica 4.439-449 (Mair, Loeb index)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Common cuttlefish — *Sepia officinalis* — σουπιά (soupia)
+
+**Ancient name:** σηπία (sepia) — Athenaeus 7 (Yonge ch. 41, 46, 59: "cuttle-fish"); Oppian, Halieutica 2.120-127, 3.156-165, 4.147-171 (Mair's analysis).
+
+**Family:** Sepiidae
+
+**Size:** Mantle length to about 45-49 cm and 2-4 kg; smaller in warm seas (Wikipedia "Common cuttlefish"; exact figures not captured).
+
+**Description:** A broad, flattened cephalopod with an internal chalky "bone", a fin skirting the whole mantle, eight arms and two shooting tentacles, and W-shaped pupils; unmatched at camouflage and able to squirt ink when startled. Migratory: spends spring and summer inshore to spawn, then moves to deeper water for autumn and winter (Wikipedia). Preys on crabs, shrimp and fish.
+
+**Habitat:** Sand and seagrass bottoms; inshore in spring, to ~200 m in winter.
+
+**Fishing (where, how):** Trammel nets and traps set on shallow bottoms during the spring spawning migration (the traditional Greek season), and trawls in deeper water in winter.
+
+**Season:** Spring (March-May).
+
+**Eating:** Cuttlefish with spinach (σουπιές με σπανάκι — the Lenten classic), cuttlefish in its own ink (σουπιές με το μελάνι τους), grilled (σουπιά σχάρας), or stewed with wine and olives.
+
+**History:** Athenaeus 7 quotes cooks stuffing cuttlefish "with a rich forced meat of almost every kind of herb and flower" (ch. 41) and lists it among the fish best boiled (ch. 59). Oppian treats its ink-cloud escape (Halieutica 3.156-165) and its capture by love of its kind (4.147-171) (Mair's analysis). Aristotle describes its ink, eggs and cunning in Historia Animalium 4.1, 5.18 and 9.37 (sections not read this session).
+
+**Modern history:** Least Concern (IUCN, Barratt & Allcock 2012); "fished extensively and wild stocks in some regions are close to being over-exploited", but populations are not declining (Wikipedia).
+
+**IUCN status:** Least Concern (IUCN, Barratt & Allcock 2012).
+
+**Image:** [Common cuttlefish (Sepia officinalis), Arrábida, Portugal.](https://commons.wikimedia.org/wiki/File%3ASepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2023-07-26%2C_DD_63.jpg) — author: Diego Delso; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/a/ac/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2023-07-26%2C_DD_63.jpg
+
+**Confidence:**
+
+- size: MEDIUM
+- ancient: HIGH
+- history: MEDIUM-HIGH
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Aristotle HA passages on sepia not read this session.
+
+**Sources:**
+
+- [IUCN Red List: Sepia officinalis (2012)](https://www.iucnredlist.org/species/162664/939991)
+- [Wikipedia: Common cuttlefish](https://en.wikipedia.org/wiki/Common_cuttlefish)
+- [Athenaeus 7 (Perseus, Yonge) ch. 41, 46, 59](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=41)
+- [Oppian, Halieutica 2.120-127; 3.156-165; 4.147-171 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## European spiny lobster — *Palinurus elephas* — αστακός (astakos)
+
+**Ancient name:** κάραβος (karabos) was the ancient word for the spiny lobster; ancient ἀστακός (astakos) meant the clawed lobster (Homarus) — Mair, Loeb Oppian: "Crayfish" (karabos) in Halieutica 2.253-421; Athenaeus 7 (Yonge ch. 6, 26, 27: "lobsters", "lobsters with hard shells"). Modern Greek has transferred astakos to the spiny lobster. (The astakos/karabos distinction rests on Aristotle HA 4.2 and Athenaeus 3, not read this session.)
+
+**Family:** Palinuridae
+
+**Size:** Total length to about 60 cm, rarely over 50 cm, usually 20-40 cm; max weight several kilograms (Wikipedia "Palinurus elephas").
+
+**Description:** A clawless lobster armoured in forward-pointing spines, reddish-brown with yellow spots, with two very long, heavy, spiny antennae. Lives in holes and crevices of rocky bottoms from 5 to about 150 m, emerging at night to scavenge and hunt (Wikipedia).
+
+**Habitat:** Rocky bottoms and drop-offs, 20-100 m; rocky island coasts of the Aegean.
+
+**Fishing (where, how):** Caught in bottom-set trammel nets (αστακόδιχτα) and traps, and by spearfishers/divers; Greek law protects it with a closed season and a minimum size (dates and sizes not verified here).
+
+**Season:** Spring to late summer (open season).
+
+**Eating:** Astakomakaronada (αστακομακαρονάδα — lobster with spaghetti in tomato sauce, the festive dish of the Cyclades and Sporades) or split and grilled (αστακός σχάρας) with ladolemono.
+
+**History:** Oppian, Halieutica 2.253-421 (read in Mair's translation): "Above all other the dashing Crayfish and the Muraena and the Poulpes have a bitter feud with each other and destroy one another with mutual slaughter" — Oppian then narrates the bouts in turn: the moray kills the octopus (the passage read this session and quoted under "moray"); by the traditional reading of the rest of the episode the crayfish kills the moray and the octopus the crayfish, closing the circle (those two bouts were not re-read here). Epicharmus lists "crabs and lobsters" among the dishes (Athenaeus 7, ch. 27).
+
+**Modern history:** Vulnerable (IUCN, Goñi 2014). Heavily fished throughout the Mediterranean; Greek stocks depend on closed seasons and size limits.
+
+**IUCN status:** Vulnerable (IUCN, Goñi 2014).
+
+**Image:** [European spiny lobster (Palinurus elephas), Arrábida, Portugal.](https://commons.wikimedia.org/wiki/File%3ALangosta_com%C3%BAn_%28Palinurus_elephas%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2023-07-27%2C_DD_12.jpg) — author: Diego Delso; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/7/79/Langosta_com%C3%BAn_%28Palinurus_elephas%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2023-07-27%2C_DD_12.jpg
+
+**Confidence:**
+
+- size: HIGH (Wikipedia)
+- ancient: MEDIUM - karabos/astakos distinction is standard but primary texts not read
+- history: HIGH for Oppian
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Greek closed season (commonly 1 Sept-31 Dec) and EU minimum size (90 mm carapace) not verified.
+- Which of the three wins each bout in Oppian's triangle beyond the moray-octopus fight was not re-read; see moray entry.
+
+**Sources:**
+
+- [IUCN Red List: Palinurus elephas (2014)](https://www.iucnredlist.org/species/169975/1281221)
+- [Wikipedia: Palinurus elephas](https://en.wikipedia.org/wiki/Palinurus_elephas)
+- [Athenaeus 7 (Perseus, Yonge) ch. 6, 26, 27](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=26)
+- [Oppian, Halieutica 2.253-421 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Mediterranean moray — *Muraena helena* — σμέρνα (smerna)
+
+**Ancient name:** μύραινα / σμύραινα (myraina, smyraina) — Mair, Loeb Oppian glossary "Μύραινα, the Murry, Muraena helena"; Oppian, Halieutica 1.554-579 (mating), 2.253-421 (war with octopus and crayfish), 3.117-120 (capture); Pliny NH 9.39 (23) "The Muraena" (read on Perseus).
+
+**Family:** Muraenidae
+
+**Size:** Max 150 cm TL, 6.5 kg; common 80 cm; max age 38 years (FishBase).
+
+**Description:** A thick, scaleless, snake-like eel, dark brown marbled with yellow, with a gaping jaw of needle teeth; no pectoral fins. Solitary and territorial, it hides by day in holes of rocky bottoms (most common at 100-300 m but from 1 m down) and hunts fish, crabs and cephalopods at night, also scavenging (Wikipedia "Mediterranean moray"; FishBase: reef-associated).
+
+**Habitat:** Rocky reefs and caves, 1-300 m.
+
+**Fishing (where, how):** Caught on bottom longlines and handlines baited with fish or octopus, in trammel nets, and by spearfishers — with care, since the bite is nasty and the skin slime mildly toxic (Wikipedia).
+
+**Season:** Year-round.
+
+**Eating:** Skinned and fried in slices (σμέρνα τηγανητή) or stewed; a prized dish in the Cyclades and on Kalymnos. "It can be utilized fresh and eaten broiled, boiled and baked" (Wikipedia).
+
+**History:** Pliny, Natural History 9.39 (read on Perseus): "It is a vulgar belief that the muraena comes on shore, and is there impregnated by intercourse with serpents. Aristotle calls the male ... zmyrus"; and "Vedius Pollio, a Roman of equestrian rank, and one of the friends of the late Emperor Augustus ... caused such slaves as had been condemned by him, to be thrown into preserves filled with muraenae ... because he could not see a man so aptly torn to pieces all at once by any other animal." Oppian, Halieutica 2.253-421 (read in Mair): "The raging Muraena comes forth from her sea-washed rock ... Speedily she catches the Poulpe and fixes her deadly teeth in him"; Oppian 1.554-579 retells the moray-viper mating legend (Mair's analysis).
+
+**Modern history:** Least Concern (IUCN, Smith 2015; FishBase: assessed 18 Aug 2011).
+
+**IUCN status:** Least Concern (IUCN, Smith 2015).
+
+**Image:** [Mediterranean moray (Muraena helena), Reqqa Point, Gozo.](https://commons.wikimedia.org/wiki/File%3AMorena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Regga%2C_Gozo%2C_Malta%2C_2021-08-23%2C_DD_14.jpg) — author: Diego Delso; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/4/4e/Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Regga%2C_Gozo%2C_Malta%2C_2021-08-23%2C_DD_14.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH - Pliny and Oppian read this session
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: MEDIUM
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Crassus mourning his pet moray (Macrobius Sat. 3.15; Aelian NA 8.4) not verified.
+- Seneca De Ira 3.40 and Dio 54.23 on Vedius Pollio not checked (Pliny suffices).
+
+**Sources:**
+
+- [FishBase: Muraena helena](https://www.fishbase.se/summary/Muraena-helena.html)
+- [IUCN Red List: Muraena helena (2015)](https://www.iucnredlist.org/species/194974/2370347)
+- [Wikipedia: Mediterranean moray](https://en.wikipedia.org/wiki/Mediterranean_moray)
+- [Pliny, NH 9.39 (Perseus, Bostock)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=9:chapter=39)
+- [Oppian, Halieutica 1.554-579; 2.253-421 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Red scorpionfish — *Scorpaena scrofa* — σκορπίνα (S. scrofa); σκορπιός (S. porcus) (skorpina; skorpios)
+
+**Ancient name:** σκορπίος / σκόρπαινα (skorpios, skorpaina) — Athenaeus 7 (Yonge ch. 15 Numenius: "The scorpion also with its rosy meat"; ch. 6 Epicharmus: "A scorpion and a lobster"; ch. 110 Numenius "the red-flesh'd scorpion"); Mair, Loeb Oppian index "Scorpius, H. 1.171, 591; 2.459" (among the venomous fishes, 2.422-500).
+
+**Family:** Scorpaenidae
+
+**Size:** Max 50 cm TL, 3 kg; common 30 cm (FishBase).
+
+**Description:** A stout, big-headed, red-to-brown fish fringed with skin flaps, superbly camouflaged among rocks; the dorsal, anal and pelvic spines are venomous and give a painful sting (Wikipedia: "a venomous marine species"). Sits on rocky and mixed bottoms from about 20 to 500 m waiting to engulf fish and crustaceans (FishBase: demersal). The smaller black scorpionfish S. porcus (skorpios) lives shallower among weed.
+
+**Habitat:** Rocky bottoms, 20-200 m (deeper in winter).
+
+**Fishing (where, how):** Trammel nets and bottom longlines on rocky ground, and spearguns; handled carefully because of the spines.
+
+**Season:** Year-round.
+
+**Eating:** The essential fish of kakavia (κακκαβιά), the fishermen's soup named after the kakavi, "the tripod cooking pot used by ancient Ionian fishermen", "the most ancient of Greek fish soups" and cousin of bouillabaisse (Wikipedia "Kakavia (soup)"); S. scrofa is likewise "a traditional ingredient in Marseille bouillabaisse and in Tuscan cacciucco" (Wikipedia). Large fish are also baked or boiled with ladolemono.
+
+**History:** Numenius' fishing poem praises "the scorpion with its rosy meat" and Epicharmus serves "a scorpion and a lobster" (Athenaeus 7, ch. 6, 15, 110). Oppian ranks the scorpius among the venomous fishes whose spines wound the fisherman (Halieutica 2.422-500; Mair's analysis).
+
+**Modern history:** Least Concern (IUCN 2014 per FishBase).
+
+**IUCN status:** Least Concern (IUCN, assessed 15 July 2014, per FishBase).
+
+**Image:** [Red scorpionfish (Scorpaena scrofa), Giannutri Island, Italy.](https://commons.wikimedia.org/wiki/File%3AScorfano_rosso%2C_Cala_Spalmatoio%2C_Giannutri_Island.jpg) — author: Carrara Guido and family; licence: **CC BY 2.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/6/68/Scorfano_rosso%2C_Cala_Spalmatoio%2C_Giannutri_Island.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH
+- iucn: HIGH
+- fishing: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- cooking: HIGH for kakavia/bouillabaisse (Wikipedia)
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Aristotle HA 5.9 "spawns twice" for the skorpios not verified.
+
+**Sources:**
+
+- [FishBase: Scorpaena scrofa](https://www.fishbase.se/summary/Scorpaena-scrofa.html)
+- [Wikipedia: Scorpaena scrofa](https://en.wikipedia.org/wiki/Scorpaena_scrofa)
+- [Wikipedia: Kakavia (soup)](https://en.wikipedia.org/wiki/Kakavia_(soup))
+- [Athenaeus 7 (Perseus, Yonge) ch. 6, 15, 110](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=15)
+- [Oppian, Halieutica 2.422-500 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Devil firefish (lionfish) — *Pterois miles* — λεοντόψαρο (leontopsaro)
+
+**Ancient name:** None — a Lessepsian invader from the Red Sea, unknown to the ancients.
+
+**Family:** Scorpaenidae
+
+**Size:** Max 43 cm TL, 788 g (FishBase).
+
+**Description:** A striking reef fish banded in maroon and white, with fan-like pectoral fins and long venomous dorsal spines; slow-moving and unafraid. Native to the Indian Ocean and Red Sea (Wikipedia), it hovers over rocky reefs and caves from the shallows to over 50 m (FishBase: reef-associated) and gulps small fish and shrimps, out-competing native predators.
+
+**Habitat:** Rocky reefs, caves and wrecks, 1-60 m; now throughout the eastern Mediterranean.
+
+**Fishing (where, how):** Not targeted commercially; removed by spearfishers and in organised "lionfish derbies", and increasingly landed and sold from trammel nets and longlines as bycatch (Greek campaigns promote eating it; details not verified here).
+
+**Season:** Year-round.
+
+**Eating:** Venom is in the spines, not the flesh: filleted with care and fried, grilled or served as ceviche; the white flesh is excellent.
+
+**History:** No ancient history. First Mediterranean record 1991, off Israel, after passage through the Suez Canal (Wikipedia "Pterois miles"); rare until a second wave from about 2012, after which it spread rapidly through the Levant, Cyprus, Turkey and Greece (Rhodes and Crete in the mid-2010s), and "is now common in the eastern Basin, with recent observations in the Sicily channel" (Wikipedia).
+
+**Modern history:** One of the most conspicuous Lessepsian invaders of the Aegean; Least Concern globally (IUCN, Motomura et al. 2018).
+
+**IUCN status:** Least Concern (IUCN, Motomura, Matsuura & Khan 2018; FishBase: assessed 20 June 2017).
+
+**Image:** [Lionfish (Pterois miles) photographed in Greek waters.](https://commons.wikimedia.org/wiki/File%3APterois_miles_426926402.jpg) — author: Eleftherios Katsillis (iNaturalist); licence: **CC BY 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/7/79/Pterois_miles_426926402.jpg
+
+**Confidence:**
+
+- size: HIGH
+- history: HIGH for 1991 Israel record and eastern-basin spread (Wikipedia); MEDIUM for the 2012 re-appearance and Greek first-record years (from memory; the primary papers were not fetched)
+- iucn: HIGH
+- fishing: MEDIUM
+- cooking: MEDIUM - standard Greek fishing/culinary practice; not verified against a written source in this session
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Golani & Sonin 1992 paper; Kletou et al. 2016; first Aegean records (Rhodes 2015?) not verified.
+- Northern limit of the Aegean invasion today not verified.
+
+**Sources:**
+
+- [FishBase: Pterois miles](https://www.fishbase.se/summary/Pterois-miles.html)
+- [IUCN Red List: Pterois miles (2018)](https://www.iucnredlist.org/species/190475/54145413)
+- [Wikipedia: Pterois miles](https://en.wikipedia.org/wiki/Pterois_miles)
+
+---
+
+## Mediterranean parrotfish — *Sparisoma cretense* — σκάρος (skaros)
+
+**Ancient name:** σκάρος (skaros); Latin scarus — Aristotle, Historia Animalium 8.2 (591b); Athenaeus 7 (Yonge ch. 113); Pliny, NH 9.29 (62-63); Oppian, Halieutica 4.40-126; Mair's Loeb note: "Scarus cretensis ... M.G. σκάρος ... anciently held in high esteem: Epicharmus ap. Athen. 319f; Plin. 9.62 Nunc principatus scaro datur; Horace Epod. 2.50, Sat. 2.2.22; Galen".
+
+**Family:** Scaridae
+
+**Size:** Max 50-52 cm TL; most 15-30 cm (FishBase; Wikipedia).
+
+**Description:** The only parrotfish native to the Mediterranean: a fused-toothed beak for scraping algae off rock, large scales, and two colour forms — adult females red with a yellow-edged grey saddle and a yellow tail-spot, adult males plain grey. Unusually, sex change happens only in immature females, and many females never change (Wikipedia). Lives on rocky reefs with algae to about 50 m, feeding on epilithic and coralline algae; spawns in summer (Wikipedia; FishBase: reef-associated).
+
+**Habitat:** Rocky, algae-covered shores, 1-50 m; warm-water species, commonest in the southern Aegean, Crete and the Dodecanese.
+
+**Fishing (where, how):** Trammel nets set close to rocky shores at dawn and dusk, and spearguns; a speciality of Crete, Karpathos, Kasos, Ikaria and Symi, where it is a valued local fish (in most of its range "it is caught and sold as bycatch", Wikipedia).
+
+**Season:** Summer to autumn.
+
+**Eating:** Fried or grilled, traditionally cooked ungutted so the algae-filled intestine flavours the fish (island tradition; not source-verified here).
+
+**History:** VERIFIED CLAIMS. (1) Aristotle, Historia Animalium 8.2 (591b): "Of all fishes the so-called scarus, or parrot wrasse, is the only one known to chew the cud like a quadruped" (MIT Classics translation, read this session); Parts of Animals 3.1: "All fishes have teeth of the serrated form, with the single exception of the fish known as the Scarus" (read). Athenaeus 7 (Yonge ch. 113) repeats Aristotle: "it alone of all fish chews the cud ... it delights in seaweed for food". (2) Pliny, Natural History 9.29 (Bostock; read on Perseus): "At the present day, the first place is given to the scarus, the only fish that is said to ruminate, and to feed on grass and not on other fish. It is mostly found in the Carpathian Sea, and never of its own accord passes Lectum, a promontory of Troas. Optatus Elipertius, the commander of the fleet under the Emperor Claudius, had this fish brought from that locality, and dispersed in various places off the coast between Ostia and the districts of Campania. During five years, the greatest care was taken that those which were caught should be returned to the sea; but since then they have been always found in great abundance off the shores of Italy" — the Carpathian Sea being the water around Karpathos, between Crete and Rhodes: the Romans transplanted an Aegean fish to Italy. (3) Archestratus: Athenaeus 7.319-320 is the locus (Mair cites Epicharmus at Athen. 319f); the Archestratus fragment naming Ephesus/Chalcedon was NOT located in the Yonge chapters read, so it is left unconfirmed. (4) Oppian, Halieutica 4.40-126 (read in Mair): parrot-wrasses rescue a comrade caught in a wicker weel by offering it their tails to bite and pulling it out.
+
+**Modern history:** "It prefers relatively warm temperatures and there is an ongoing northward range expansion, possibly due to global warming" (Wikipedia "Sparisoma cretense"); Least Concern (IUCN 2009/2012 per FishBase).
+
+**IUCN status:** Least Concern (IUCN, assessed 15 Sep 2009, per FishBase).
+
+**Image:** [Mediterranean parrotfish (Sparisoma cretense) in the Rhodes Aquarium.](https://commons.wikimedia.org/wiki/File%3ARhodes_Aquarium_-_Sparisoma_cretense.jpg) — author: Szilas; licence: **Public domain**; direct file: https://upload.wikimedia.org/wikipedia/commons/0/01/Rhodes_Aquarium_-_Sparisoma_cretense.jpg
+
+**Confidence:**
+
+- size: HIGH
+- ancient: HIGH
+- history: HIGH for Aristotle, Pliny, Athenaeus and Oppian (all read); LOW for the Archestratus fragment (not located)
+- modern: HIGH (Wikipedia) - primary papers not fetched
+- iucn: HIGH
+- fishing: MEDIUM
+- cooking: MEDIUM - ungutted tradition widely reported but not source-verified
+- image: HIGH - PD per Commons API; direct URL from API
+
+**Not verified / open points for this entry:**
+
+- Archestratus fr. on skaros (Ephesus/Chalcedon) not located.
+- Macrobius Sat. 3.16.10 and Columella 8.16.9 not checked.
+- Aristotle PA 3.14 (675a) rumination passage not found in the MIT text; HA 8.2 suffices.
+
+**Sources:**
+
+- [FishBase: Sparisoma cretense](https://www.fishbase.se/summary/Sparisoma-cretense.html)
+- [Wikipedia: Sparisoma cretense](https://en.wikipedia.org/wiki/Sparisoma_cretense)
+- [Aristotle, HA 8.2 (MIT Classics)](http://classics.mit.edu/Aristotle/history_anim.8.viii.html)
+- [Aristotle, Parts of Animals 3.1 (MIT Classics)](http://classics.mit.edu/Aristotle/parts_animals.3.iii.html)
+- [Pliny, NH 9.29 (Perseus, Bostock)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=9:chapter=29)
+- [Athenaeus 7 (Perseus, Yonge) ch. 113](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003:book=7:chapter=113)
+- [Oppian, Halieutica 4.40-126 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Mediterranean monk seal (bonus: not a fish) — *Monachus monachus* — μεσογειακή φώκια (mesogeiaki fokia)
+
+**Ancient name:** φώκη (phoke) — Homer, Odyssey 4.400-450 (the seals of Proteus); Aristotle, Historia Animalium 6.12 (566b-567a); Oppian, Halieutica 1.686-701 and 5.376-391 (Mair's analysis: "Seal").
+
+**Family:** Phocidae
+
+**Size:** Adults about 2.4 m and 240-400 kg; pups about 1 m at birth (Wikipedia; figures partly stripped from the raw text and given from general reference).
+
+**Description:** A large, dark-brown to grey earless seal with a pale belly patch, short flippers and a rounded head. Once hauled out on open beaches; today it breeds almost only in sea-caves of remote, cliff-bound coasts. Solitary or in small groups, feeding on fish, octopus and lobster — which brings it into conflict with fishermen, whose nets it raids (Wikipedia).
+
+**Habitat:** Sea-caves and remote rocky coasts of the Aegean and Ionian; largest concentrations at Gyaros and the Northern Sporades.
+
+**Fishing (where, how):** Not fished; strictly protected. The fisherman's rival since antiquity: "Damage inflicted on fishermen's nets ... pushed local people towards hunting the Mediterranean monk seal" and in the 20th century fishermen eradicated it as a pest (Wikipedia).
+
+**Season:** Pups are born mainly in autumn (September-November).
+
+**Eating:** Not eaten; protected.
+
+**History:** Homer, Odyssey 4.400-450 (read on Perseus): Eidothea tells Menelaus that Proteus, the Old Man of the Sea, comes ashore at noon "and around him the seals, the brood of the fair daughter of the sea, sleep in a herd, coming forth from the gray water, and bitter is the smell they breathe of the depths of the sea" (4.404-406); she hides Menelaus and three companions under freshly flayed seal-skins (4.435-443) and saves them from the stench with ambrosia. Aristotle, Historia Animalium 6.12: "The seal is an amphibious animal ... breathes and sleeps and brings forth on dry land ... has two teats, and suckles its young like a quadruped ... conducts its young ones, when they are about twelve days old, over and over again during the day down to the sea" (MIT Classics, read). Oppian devotes Halieutica 1.686-701 and 5.376-391 to the seal (Mair). The Ionian city of Phocaea (Φώκαια) took the seal as its badge: an electrum stater of c. 620-522 BC in Munich shows a seal (Commons, ArchaiOptix photograph), and the British Museum holds a Phocaean seal coin of 600-550 BC (Wikipedia "Phocaea").
+
+**Modern history:** One of the world's rarest seals: an estimated 800-1,000 individuals survive, with 250-300 in Greece (largest concentration at Gyaros) and ~100 in Turkey; the IUCN downlisted it from Endangered to Vulnerable in 2023 as subpopulations began to grow (Wikipedia "Mediterranean monk seal"; Karamanlidis et al. 2023). Greece's first marine park, the National Marine Park of Alonnisos Northern Sporades, was founded by Presidential Decree on 16 May 1992 to protect it; MOm (the Hellenic Society for the Study and Protection of the Monk Seal) has monitored the population there since 1990 (Wikipedia "Alonnisos Marine Park").
+
+**IUCN status:** Vulnerable (IUCN 2023, Karamanlidis et al.; Endangered 2015-2023, Critically Endangered before).
+
+**Image:** [Young Mediterranean monk seal (Monachus monachus) at Lichadonisia, Greece.](https://commons.wikimedia.org/wiki/File%3AYoung_monk_seal.jpg) — author: Wanax01; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/6/6c/Young_monk_seal.jpg
+
+**Confidence:**
+
+- size: MEDIUM
+- ancient: HIGH
+- history: HIGH - Homer and Aristotle read; coin verified on Commons
+- modern: HIGH
+- iucn: HIGH
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- Exact adult length/weight figures were stripped by the wikitext parser; the numbers given are standard reference values.
+
+**Sources:**
+
+- [IUCN Red List: Monachus monachus (2023)](https://www.iucnredlist.org/species/13653/238637039)
+- [Wikipedia: Mediterranean monk seal](https://en.wikipedia.org/wiki/Mediterranean_monk_seal)
+- [Wikipedia: Alonnisos Marine Park](https://en.wikipedia.org/wiki/Alonnisos_Marine_Park)
+- [Wikipedia: Phocaea (seal coin, BM)](https://en.wikipedia.org/wiki/Phocaea)
+- [Homer, Odyssey 4.398-460 (Perseus, Murray)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136:book=4:card=398)
+- [Aristotle, HA 6.12 (MIT Classics)](http://classics.mit.edu/Aristotle/history_anim.6.vi.html)
+- [Commons: Phokaia electrum stater with seal (CC BY-SA 4.0, ArchaiOptix)](https://commons.wikimedia.org/wiki/File%3APhokaia_-_620-522_BC_-_elektron_stater_-_seal_-_dipartite_incusum_-_M%C3%BCnchen_SMS.jpg)
+- [Oppian, Halieutica 1.686-701; 5.376-391 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+
+---
+
+## Mediterranean bath sponge (bonus) — *Spongia officinalis* — σφουγγάρι (sfoungari)
+
+**Ancient name:** σπόγγος (spongos) — Homer, Iliad 18.414-415 (Hephaestus wipes his face, hands, neck and chest with a sponge) and Odyssey 1.111, 22.439 (tables cleaned "with porous sponges") — all three read on Perseus; Aristotle, Historia Animalium 5.16 on sponges (not read this session); Oppian, Halieutica 5.612-674 on the sponge-cutters.
+
+**Family:** Spongiidae (Demospongiae)
+
+**Size:** Irregular cushions or globes typically 10-35 cm across (general reference).
+
+**Description:** A living animal, not a plant: a filter-feeding demosponge whose soft, elastic skeleton of spongin fibres is the "bath sponge". Grows attached to rock from a few metres to over 40 m in clear water; harvested, cleaned of its dark living tissue and dried to the familiar yellow-brown sponge.
+
+**Habitat:** Rocky bottoms, 5-50 m+, Dodecanese and Aegean; also Libya and the Levant, where Greek boats fished.
+
+**Fishing (where, how):** Harvested by divers: in antiquity and until the 19th century naked free-divers descended on a skandalopetra — "a rounded stone tied on a rope to the boat, to take him down to the bottom quickly" — cut the sponge and were hauled up (Wikipedia "Sponge diving"); from 1865 Greek divers used the surface-supplied helmet suit (skafandro), with "extremely high" death and injury rates from decompression sickness; harpoons and, later, trawling gangava were also used. Kalymnos, Symi, Halki and Hydra were the sponge islands (Wikipedia; Tarpon Springs article).
+
+**Season:** Spring-summer voyages (traditionally the boats left after Easter and returned in autumn — general knowledge).
+
+**Eating:** Not eaten. Processing: sponges are trodden, squeezed and rinsed to remove the living tissue, then dried, trimmed and sometimes bleached for sale.
+
+**History:** Homer already knows the sponge as a household object (Il. 18.414; Od. 1.111, 22.439, read on Perseus). Oppian, Halieutica 5.612-674 (read in Mair's translation) gives the most vivid ancient account of any fishery: the sponge-cutter prays to the gods, "is girt with a long rope above his waist ... in one [hand] he grasps a heavy mass of lead and in his right hand he holds a sharp bill, while in the jaws of his mouth he keeps white oil ... he leaps into the eddying waves and ... the heavy grey lead drags him down ... he spits out the oil, and it shines brightly ... like a mower, he cuts the body of the Sponges ... quickly shakes the rope, signalling to his comrades to pull him up" — and sometimes "he comes up no more, unhappy man, having encountered some huge and hideous beast". Plato and Aristotle also mention sponges (Wikipedia "Sponge (tool)").
+
+**Modern history:** The Greek sponge trade centred on Kalymnos until the mid-1980s, "when a disease hit the eastern Mediterranean destroying a great number of sponges and damaging the sponge-fishing industry" (Wikipedia "Kalymnos"). In 1905 John Cocoris brought Greek divers to Tarpon Springs, Florida — first from Aegina and Hydra, soon outnumbered by men from Kalymnos, Symi and Halki — creating the largest Greek-American community in the US (Wikipedia "Tarpon Springs"). Wikipedia's species box gives an IUCN status of Endangered for the Mediterranean, but its citation points to a Hippospongia communis assessment, so the status is left unconfirmed here.
+
+**IUCN status:** *(not verified — left empty)*
+
+**Image:** [Living bath sponge (Spongia officinalis) underwater.](https://commons.wikimedia.org/wiki/File%3ASpongia_%28Spongia%29_officinalis.jpg) — author: Vasilis Andreou; licence: **CC BY-SA 4.0**; direct file: https://upload.wikimedia.org/wikipedia/commons/5/5a/Spongia_%28Spongia%29_officinalis.jpg
+
+**Confidence:**
+
+- size: LOW
+- ancient: HIGH
+- history: HIGH - Homer and Oppian read this session
+- modern: HIGH for Kalymnos disease, 1865 suits, Tarpon Springs 1905 (Wikipedia); IUCN unresolved
+- iucn: LOW - left blank
+- fishing: HIGH (Wikipedia)
+- image: HIGH - licence, author and direct URL from Commons API
+
+**Not verified / open points for this entry:**
+
+- IUCN status of Spongia officinalis (Wikipedia says EN for the Mediterranean, but cites a Hippospongia communis assessment).
+- Aristotle HA 5.16 on sponges not read.
+- Pliny NH 9.69 and 31.47 on sponges not read.
+- Barcelona Convention Annex III listing not checked.
+
+**Sources:**
+
+- [Wikipedia: Spongia officinalis](https://en.wikipedia.org/wiki/Spongia_officinalis)
+- [Wikipedia: Sponge diving](https://en.wikipedia.org/wiki/Sponge_diving)
+- [Wikipedia: Kalymnos (sponge diving)](https://en.wikipedia.org/wiki/Kalymnos)
+- [Wikipedia: Tarpon Springs, Florida](https://en.wikipedia.org/wiki/Tarpon_Springs,_Florida)
+- [Wikipedia: Sponge (tool) (Homer, Aristotle, Plato)](https://en.wikipedia.org/wiki/Sponge_(tool))
+- [Homer, Iliad 18.388ff (Perseus, Murray)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134:book=18:card=388)
+- [Homer, Odyssey 1.96ff and 22.430ff (Perseus, Murray)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136:book=22:card=430)
+- [Oppian, Halieutica 5.612-674 (Mair, Loeb)](https://archive.org/details/oppiancolluthust00oppiuoft)
+- [Commons: "Sponge fishing" lithograph, Library of Congress (PD) — alternative image](https://commons.wikimedia.org/wiki/File%3ASponge_fishing_LCCN2003666909_restored.jpg)
+
+---
+
+## Things I could not verify (consolidated)
+
+These are the claims in the brief that were NOT confirmed this session. Treat them as unverified until checked.
+
+- **Atlantic bluefin tuna**: Exact Greek/ICCAT quota figures for Greece not verified.
+- **Atlantic bluefin tuna**: Archestratus' own tuna fragment (Athenaeus 7.301-303) was not located in the chapters read.
+- **Atlantic bonito**: Greek-specific catch statistics and gear split not verified.
+- **Swordfish**: ICCAT Mediterranean swordfish closure dates (commonly cited as 1 Jan-31 Mar and 1 Oct-30 Nov) not verified.
+- **Swordfish**: EU driftnet ban year (2002) and ICCAT Rec. 16-05 not verified this session.
+- **European anchovy**: Greek winter closure for purse seines (often cited as mid-December to end of February) not verified.
+- **European pilchard (sardine)**: Kalloni (Lesbos) sardine/papalina tradition not source-verified.
+- **European pilchard (sardine)**: Sardine photo is a market shot (Marseille), not a scientific portrait; a better Aegean sardine photo could be sought.
+- **Atlantic mackerel & Atlantic chub mackerel**: S. colias maximum size (FishBase gives ca. 64 cm) not captured this session.
+- **Atlantic mackerel & Atlantic chub mackerel**: Relative abundance of the two species in the Aegean is stated from general knowledge.
+- **Striped red mullet & red mullet**: Aristotle HA 5.9 (543a) "spawns three times a year, hence the name" not verified.
+- **Striped red mullet & red mullet**: Trigle sacred to Hecate (Athenaeus 7.325) not located this session.
+- **Striped red mullet & red mullet**: Greek trawl closure dates (usually 1 June-30 September) not verified.
+- **Gilthead sea bream**: Greek farmed production tonnage (HAPO/FEAP figures) not verified.
+- **Gilthead sea bream**: Aphrodite association not verified in a primary text.
+- **European sea bass**: Athenaeus "labrax the wisest of fish" (7.310-311) not located this session.
+- **European sea bass**: Greek farmed sea-bass tonnage not verified.
+- **Dusky grouper**: Aristotle HA on the orphos (long-lived, hides in holes) not verified.
+- **Dusky grouper**: EU/Greek minimum landing size (commonly 45 cm) not verified.
+- **Picarel**: Aristotle HA 8.30 (607b) on the mainis changing colour in season not verified.
+- **Greater amberjack**: Etymology "May fish" not source-verified.
+- **Greater amberjack**: Greek aquaculture trials for amberjack not verified.
+- **Common dolphinfish (mahi-mahi)**: Which scholars (Marinatos, Doumas, Mylona) identify the fresco fish as Coryphaena vs. other species could not be checked.
+- **Common dolphinfish (mahi-mahi)**: A second photo (living fish) is offered in sources: File:Coryphaenahippurus.JPG, CC BY-SA 3.0, by Citron.
+- **European eel**: Archestratus on Copais/Strymon eels (Athenaeus 7.298) not located in the chapters read.
+- **European eel**: Aristophanes Lysistrata 36, 702 eel references not checked.
+- **Common octopus**: Palaikastro provenance of the Heraklion octopus flask not verified.
+- **Common octopus**: Octopus on coins of Eretria not verified.
+- **Common octopus**: Pliny NH 9.46-48 giant octopus of Carteia not read.
+- **European squid**: Aristotle HA 4.1 teuthis vs teuthos not read this session.
+- **Common cuttlefish**: Aristotle HA passages on sepia not read this session.
+- **European spiny lobster**: Greek closed season (commonly 1 Sept-31 Dec) and EU minimum size (90 mm carapace) not verified.
+- **European spiny lobster**: Which of the three wins each bout in Oppian's triangle beyond the moray-octopus fight was not re-read; see moray entry.
+- **Mediterranean moray**: Crassus mourning his pet moray (Macrobius Sat. 3.15; Aelian NA 8.4) not verified.
+- **Mediterranean moray**: Seneca De Ira 3.40 and Dio 54.23 on Vedius Pollio not checked (Pliny suffices).
+- **Red scorpionfish**: Aristotle HA 5.9 "spawns twice" for the skorpios not verified.
+- **Devil firefish (lionfish)**: Golani & Sonin 1992 paper; Kletou et al. 2016; first Aegean records (Rhodes 2015?) not verified.
+- **Devil firefish (lionfish)**: Northern limit of the Aegean invasion today not verified.
+- **Mediterranean parrotfish**: Archestratus fr. on skaros (Ephesus/Chalcedon) not located.
+- **Mediterranean parrotfish**: Macrobius Sat. 3.16.10 and Columella 8.16.9 not checked.
+- **Mediterranean parrotfish**: Aristotle PA 3.14 (675a) rumination passage not found in the MIT text; HA 8.2 suffices.
+- **Mediterranean monk seal (bonus: not a fish)**: Exact adult length/weight figures were stripped by the wikitext parser; the numbers given are standard reference values.
+- **Mediterranean bath sponge (bonus)**: IUCN status of Spongia officinalis (Wikipedia says EN for the Mediterranean, but cites a Hippospongia communis assessment).
+- **Mediterranean bath sponge (bonus)**: Aristotle HA 5.16 on sponges not read.
+- **Mediterranean bath sponge (bonus)**: Pliny NH 9.69 and 31.47 on sponges not read.
+- **Mediterranean bath sponge (bonus)**: Barcelona Convention Annex III listing not checked.
+
+### Cross-cutting caveats
+
+- Direct `upload.wikimedia.org` URLs, licences, authors and dimensions were read from the Wikimedia Commons API (`prop=imageinfo`, `extmetadata`) for every image; the Akrotiri fresco file page was additionally read in full. All licences are PD, CC0, CC BY or CC BY-SA (no NC/ND).
+- IUCN Red List page URLs are built from the assessment IDs cited in the Wikipedia species boxes (pattern `iucnredlist.org/species/<taxon>/<assessment>`); the IUCN site itself was not fetched this session.
+- Greek regulatory details (closed seasons for purse seine, trawl, spiny lobster; minimum sizes; ICCAT swordfish closure dates) are deliberately NOT stated as fact anywhere above; they should be taken from the current Greek Ministry of Rural Development and Food / EU regulations.
+- Cooking and gear statements marked "MEDIUM - standard Greek fishing/culinary practice" are common knowledge in Greece but were not tied to a written source in this session.
+- Ancient-to-modern species identifications (especially the small fry: aphye, trichis, mainis) are inherently approximate; the ancient names are attested, the one-to-one mapping is conventional.

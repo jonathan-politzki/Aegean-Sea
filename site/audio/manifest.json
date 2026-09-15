@@ -1,0 +1,506 @@
+{
+ "milos|Obsidian from Milos: the first sailors": {
+  "file": "audio/stop-01.mp3",
+  "hash": "43a1894d4ada",
+  "seconds": 70,
+  "chars": 982,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "kythnos|Maroulas: the oldest village in the islands": {
+  "file": "audio/stop-02.mp3",
+  "hash": "bf82622b0647",
+  "seconds": 63,
+  "chars": 929,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "sporades|Fish hooks from the Cave of the Cyclops": {
+  "file": "audio/stop-03.mp3",
+  "hash": "752f66c53224",
+  "seconds": 96,
+  "chars": 1413,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "franchthi|Tuna at Franchthi": {
+  "file": "audio/stop-04.mp3",
+  "hash": "b8452dc36d52",
+  "seconds": 88,
+  "chars": 1323,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "paros|Saliagos: a village that lived on tuna": {
+  "file": "audio/stop-05.mp3",
+  "hash": "f39f68d85fbd",
+  "seconds": 53,
+  "chars": 821,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "syros|Longboats with a fish on the prow": {
+  "file": "audio/stop-06.mp3",
+  "hash": "d91a3fd6ffea",
+  "seconds": 59,
+  "chars": 875,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "milos|The flying fish of Phylakopi": {
+  "file": "audio/stop-07.mp3",
+  "hash": "a338778d75b3",
+  "seconds": 38,
+  "chars": 542,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "thera|The fishermen of Akrotiri": {
+  "file": "audio/stop-08.mp3",
+  "hash": "7b6d2700cf89",
+  "seconds": 115,
+  "chars": 1603,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "crete|Minoan Crete: bronze hooks, lead sinkers, purple from shells": {
+  "file": "audio/stop-09.mp3",
+  "hash": "9dd6508d2fbb",
+  "seconds": 113,
+  "chars": 1594,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "euboea|Homer's hooks and Hesiod's calendar": {
+  "file": "audio/stop-10.mp3",
+  "hash": "090cbcb23b3b",
+  "seconds": 108,
+  "chars": 1623,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "bosporus|Byzantium, mother-city of the tuna": {
+  "file": "audio/stop-11.mp3",
+  "hash": "5225fde10e57",
+  "seconds": 105,
+  "chars": 1635,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "franchthi|Purple from Hermione, and a town called Fishermen": {
+  "file": "audio/stop-12.mp3",
+  "hash": "019fe6a73cfb",
+  "seconds": 59,
+  "chars": 800,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "kythera|Porphyris, the purple island": {
+  "file": "audio/stop-13.mp3",
+  "hash": "0b84f9b26a3c",
+  "seconds": 45,
+  "chars": 660,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "athens|The fish market, where Athenians turned to stone": {
+  "file": "audio/stop-14.mp3",
+  "hash": "eb90f679be27",
+  "seconds": 115,
+  "chars": 1787,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "thasos|Archestratus eats his way round the Archipelago": {
+  "file": "audio/stop-15.mp3",
+  "hash": "bee2392e6277",
+  "seconds": 93,
+  "chars": 1383,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "lesbos|Aristotle at the lagoon": {
+  "file": "audio/stop-16.mp3",
+  "hash": "7f6720ab2581",
+  "seconds": 101,
+  "chars": 1623,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "sifnos|A doctor from Sifnos on salt fish": {
+  "file": "audio/stop-17.mp3",
+  "hash": "1ccb6933b7ed",
+  "seconds": 50,
+  "chars": 732,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "delos|Delos: a tithe on fish and a poor rocky soil": {
+  "file": "audio/stop-18.mp3",
+  "hash": "d094555c7108",
+  "seconds": 102,
+  "chars": 1525,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "samothrace|The sacred fish of Samothrace": {
+  "file": "audio/stop-19.mp3",
+  "hash": "608751d1f97a",
+  "seconds": 45,
+  "chars": 659,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "crete|Rome's fish tanks on the Cretan shore": {
+  "file": "audio/stop-20.mp3",
+  "hash": "28c59dee3875",
+  "seconds": 88,
+  "chars": 1287,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "euboea|Fire on the water: Oppian, and the dolphins of Euboea": {
+  "file": "audio/stop-21.mp3",
+  "hash": "0536e3e91a26",
+  "seconds": 120,
+  "chars": 1793,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "bosporus|Constantinople: the Eparch's fishmongers": {
+  "file": "audio/stop-22.mp3",
+  "hash": "83f45ce8a02d",
+  "seconds": 139,
+  "chars": 2121,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "naxos|The Duchy of the Archipelago": {
+  "file": "audio/stop-23.mp3",
+  "hash": "9ff3739460f4",
+  "seconds": 97,
+  "chars": 1301,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "kea|Thévenot at Kea: a harbour full of fish, tribute to two masters": {
+  "file": "audio/stop-24.mp3",
+  "hash": "da8fc7426aee",
+  "seconds": 100,
+  "chars": 1524,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "ios|Little Malta: the corsairs' Archipelago": {
+  "file": "audio/stop-25.mp3",
+  "hash": "24e1e749c0d8",
+  "seconds": 115,
+  "chars": 1777,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "naxos|Tournefort's reed weirs, cedar torches and the rules of Lent": {
+  "file": "audio/stop-26.mp3",
+  "hash": "68fa5511e36f",
+  "seconds": 107,
+  "chars": 1805,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "lesbos|Pococke at Mytilene: pine ships and men eating bread and fish": {
+  "file": "audio/stop-27.mp3",
+  "hash": "7d5bbcaefa5e",
+  "seconds": 66,
+  "chars": 1048,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "aegina|Hydra, Spetses and the Russian flag": {
+  "file": "audio/stop-28.mp3",
+  "hash": "222e54a06ea8",
+  "seconds": 95,
+  "chars": 1282,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "sporades|Skiathos and Skopelos build the boats": {
+  "file": "audio/stop-29.mp3",
+  "hash": "4057463f19f1",
+  "seconds": 81,
+  "chars": 1211,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "aegina|The diving suit comes to Greece": {
+  "file": "audio/stop-30.mp3",
+  "hash": "b387f3b5f5f0",
+  "seconds": 89,
+  "chars": 1229,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "thasos|The refugees bring the gri-gri": {
+  "file": "audio/stop-31.mp3",
+  "hash": "c8bfcfd95601",
+  "seconds": 75,
+  "chars": 1159,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "milos|The syrmata of Klima": {
+  "file": "audio/stop-32.mp3",
+  "hash": "0d867e0e9723",
+  "seconds": 37,
+  "chars": 559,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "athens|The trawlers, the law and the numbers": {
+  "file": "audio/stop-33.mp3",
+  "hash": "4c70e31bf3ef",
+  "seconds": 117,
+  "chars": 1490,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "sporades|The marine park and the seal": {
+  "file": "audio/stop-34.mp3",
+  "hash": "3a9ee9b70c4f",
+  "seconds": 90,
+  "chars": 1260,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "page|overview": {
+  "file": "audio/page-overview.mp3",
+  "hash": "f25940b1b64c",
+  "seconds": 396,
+  "chars": 6588,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "page|name": {
+  "file": "audio/page-name.mp3",
+  "hash": "e4d3bb75dfc1",
+  "seconds": 155,
+  "chars": 2501,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "page|map": {
+  "file": "audio/page-map.mp3",
+  "hash": "a16cf4701f31",
+  "seconds": 270,
+  "chars": 4164,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|bluefin-tuna": {
+  "file": "audio/fish-bluefin-tuna.mp3",
+  "hash": "52331fd9103f",
+  "seconds": 95,
+  "chars": 1311,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|bonito": {
+  "file": "audio/fish-bonito.mp3",
+  "hash": "75283e3414dc",
+  "seconds": 107,
+  "chars": 1600,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|swordfish": {
+  "file": "audio/fish-swordfish.mp3",
+  "hash": "2e6c03dc59d5",
+  "seconds": 96,
+  "chars": 1475,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|anchovy": {
+  "file": "audio/fish-anchovy.mp3",
+  "hash": "9b70fe1101eb",
+  "seconds": 80,
+  "chars": 1096,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|sardine": {
+  "file": "audio/fish-sardine.mp3",
+  "hash": "7ac5c37b601c",
+  "seconds": 66,
+  "chars": 945,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|mackerel": {
+  "file": "audio/fish-mackerel.mp3",
+  "hash": "fad34579d094",
+  "seconds": 100,
+  "chars": 1464,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|red-mullet": {
+  "file": "audio/fish-red-mullet.mp3",
+  "hash": "3bda0a3c35b9",
+  "seconds": 87,
+  "chars": 1317,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|gilthead-bream": {
+  "file": "audio/fish-gilthead-bream.mp3",
+  "hash": "9a3e35aef6f6",
+  "seconds": 80,
+  "chars": 1185,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|sea-bass": {
+  "file": "audio/fish-sea-bass.mp3",
+  "hash": "a831cd5a4fe9",
+  "seconds": 85,
+  "chars": 1179,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|dusky-grouper": {
+  "file": "audio/fish-dusky-grouper.mp3",
+  "hash": "59378c41640b",
+  "seconds": 82,
+  "chars": 1116,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|dentex": {
+  "file": "audio/fish-dentex.mp3",
+  "hash": "ba5d5c3dc2ee",
+  "seconds": 82,
+  "chars": 1072,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|bogue": {
+  "file": "audio/fish-bogue.mp3",
+  "hash": "74567d7b6002",
+  "seconds": 83,
+  "chars": 1212,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|picarel": {
+  "file": "audio/fish-picarel.mp3",
+  "hash": "423a047dbdb4",
+  "seconds": 73,
+  "chars": 1056,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|amberjack": {
+  "file": "audio/fish-amberjack.mp3",
+  "hash": "cdc80f83c09c",
+  "seconds": 53,
+  "chars": 766,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|dolphinfish": {
+  "file": "audio/fish-dolphinfish.mp3",
+  "hash": "fc0b5773a4df",
+  "seconds": 96,
+  "chars": 1485,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|eel": {
+  "file": "audio/fish-eel.mp3",
+  "hash": "bdfdcb64f9a4",
+  "seconds": 86,
+  "chars": 1250,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|octopus": {
+  "file": "audio/fish-octopus.mp3",
+  "hash": "20bd4840824a",
+  "seconds": 100,
+  "chars": 1355,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|squid": {
+  "file": "audio/fish-squid.mp3",
+  "hash": "7798702e8024",
+  "seconds": 75,
+  "chars": 987,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|cuttlefish": {
+  "file": "audio/fish-cuttlefish.mp3",
+  "hash": "4ab400b5d5d0",
+  "seconds": 85,
+  "chars": 1069,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|spiny-lobster": {
+  "file": "audio/fish-spiny-lobster.mp3",
+  "hash": "dff71326a95d",
+  "seconds": 97,
+  "chars": 1265,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|moray": {
+  "file": "audio/fish-moray.mp3",
+  "hash": "0e11dea56d2c",
+  "seconds": 93,
+  "chars": 1244,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|scorpionfish": {
+  "file": "audio/fish-scorpionfish.mp3",
+  "hash": "c66e452976bf",
+  "seconds": 85,
+  "chars": 1211,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|lionfish": {
+  "file": "audio/fish-lionfish.mp3",
+  "hash": "01647ddfb0d5",
+  "seconds": 78,
+  "chars": 1134,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|parrotfish": {
+  "file": "audio/fish-parrotfish.mp3",
+  "hash": "929fec9c79aa",
+  "seconds": 104,
+  "chars": 1450,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|monk-seal": {
+  "file": "audio/fish-monk-seal.mp3",
+  "hash": "5b99ea5692c0",
+  "seconds": 91,
+  "chars": 1262,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ },
+ "fish|sponge": {
+  "file": "audio/fish-sponge.mp3",
+  "hash": "20b342662630",
+  "seconds": 99,
+  "chars": 1402,
+  "voice": "onyx",
+  "model": "gpt-4o-mini-tts"
+ }
+}

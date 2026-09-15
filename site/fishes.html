@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The fish of the Archipelago</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="fishes" data-fish-audio>
+<header class="masthead">
+  <h1>Les Isles de l'Archipel <span>· Mallet, Paris, 1683</span></h1>
+  <nav>
+    <a href="index.html">Map</a>
+    <a href="overview.html">Overview</a>
+    <a href="fishes.html" aria-current="page">Fish</a>
+    <a href="poulos.html">Poulos</a>
+    <a href="plate.html">About</a>
+    <a href="ar.html">Point your phone</a>
+  </nav>
+</header>
+<main class="fish-page">
+  <header>
+    <h2>What lives in these waters</h2>
+    <p>Every fish, cephalopod and rival that turns up in the history. Tap one to open it.</p>
+  </header>
+  <div class="fish-list"></div>
+</main>
+<script src="fishes.js"></script>
+<script>
+(function () {
+  const F = window.AEGEAN_FISHES || [];
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  document.querySelector('.fish-list').innerHTML = F.map(f => {
+    const img = f.image && f.image.local ? esc(f.image.local) : '';
+    const credit = [f.image?.author, f.image?.license].filter(Boolean).map(esc).join(', ');
+    return `
+    <article class="fish" id="${esc(f.id)}">
+      <button class="fish-head" type="button" aria-expanded="false" aria-controls="body-${esc(f.id)}">
+        <span class="fish-head-text">
+          <span class="fish-en">${esc(f.en)}</span>
+          <span class="fish-el">${esc(f.el)} ${esc(f.translit)}</span>
+        </span>
+        ${f.iucn ? `<span class="status">${esc(String(f.iucn).split('(')[0].trim())}</span>` : ''}
+        ${img ? `<img class="fish-thumb" src="${img}" alt="" loading="lazy">` : '<span class="fish-thumb"></span>'}
+        <span class="fish-chevron" aria-hidden="true"></span>
+      </button>
+      <div class="fish-body" id="body-${esc(f.id)}" hidden>
+        ${img ? `<figure><img src="${img}" alt="${esc(f.image.caption || f.en)}" loading="lazy">
+          <figcaption>${esc(f.image?.caption || '')}${credit ? `. ${credit}` : ''}${f.image?.file_page ? ` (<a href="${esc(f.image.file_page)}" target="_blank" rel="noopener">Commons</a>)` : ''}</figcaption></figure>` : ''}
+        <p class="names"><b>${esc(f.el)}</b> ${esc(f.translit)} · ${esc(f.sci)}${f.ancient ? ` · to the ancients ${esc(f.ancient)}` : ''}</p>
+        <dl>
+          ${f.size ? `<dt>Size</dt><dd>${esc(f.size)}</dd>` : ''}
+          ${f.description ? `<dt>Fish</dt><dd>${esc(f.description)}</dd>` : ''}
+          ${f.habitat ? `<dt>Where</dt><dd>${esc(f.habitat)}</dd>` : ''}
+          ${f.fishing ? `<dt>How it's caught</dt><dd>${esc(f.fishing)}</dd>` : ''}
+          ${f.season ? `<dt>When</dt><dd>${esc(f.season)}</dd>` : ''}
+          ${f.cooking ? `<dt>On the table</dt><dd>${esc(f.cooking)}</dd>` : ''}
+        </dl>
+        <div class="history">${f.history ? `<p>${esc(f.history)}</p>` : ''}${f.modern ? `<p>${esc(f.modern)}</p>` : ''}</div>
+        ${f.sources?.length ? `<ol class="srcs">${f.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></li>`).join('')}</ol>` : ''}
+      </div>
+    </article>`;
+  }).join('');
+
+  function setOpen(art, open) {
+    const head = art.querySelector('.fish-head');
+    const body = art.querySelector('.fish-body');
+    head.setAttribute('aria-expanded', String(open));
+    body.hidden = !open;
+    art.classList.toggle('open', open);
+    if (open) document.dispatchEvent(new CustomEvent('fish-opened', { detail: art.id }));
+  }
+
+  document.querySelector('.fish-list').addEventListener('click', e => {
+    const head = e.target.closest('.fish-head');
+    if (!head) return;
+    const art = head.closest('.fish');
+    setOpen(art, head.getAttribute('aria-expanded') !== 'true');
+  });
+
+  function openFromHash() {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id) return;
+    const art = document.getElementById(id);
+    if (!art || !art.classList.contains('fish')) return;
+    setOpen(art, true);
+    art.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+  window.addEventListener('hashchange', openFromHash);
+  openFromHash();
+})();
+</script>
+<script src="pageaudio.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les Isles de l'Archipel, 1683</title>
+<meta name="description" content="A 1683 map of the Aegean and the history of fishing it, island by island.">
+<meta property="og:image" content="assets/map-600.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="frame">
+  <header class="masthead">
+    <h1>Les Isles de l'Archipel <span>· Mallet, Paris, 1683</span></h1>
+    <nav>
+      <a href="index.html" aria-current="page">Map</a>
+      <a href="overview.html">Overview</a>
+      <a href="fishes.html">Fish</a>
+      <a href="poulos.html">Poulos</a>
+      <a href="plate.html">About</a>
+      <a href="ar.html">Point your phone</a>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="stage" aria-label="The map. Tap an island.">
+      <div class="plate">
+        <img src="assets/map.jpg" alt="Les Isles de l'Archipel qui sont de l'Europe, copperplate engraving by Alain Manesson Mallet, 1683" width="884" height="1348">
+        <svg aria-hidden="false"></svg>
+      </div>
+      <div class="zoom"><button class="in" aria-label="Zoom in">+</button><button class="out" aria-label="Zoom out">−</button></div>
+      <div class="stage-hint">Tap an island · pinch to zoom</div>
+    </div>
+    <aside class="reader">
+      <div class="handle" aria-hidden="true"></div>
+      <div class="reader-inner"></div>
+      <div class="tour-nav">
+        <button class="prev" type="button">Earlier</button>
+        <button class="next" type="button">Later</button>
+        <span class="pos"></span>
+      </div>
+    </aside>
+  </div>
+</div>
+<script src="content.js"></script>
+<script src="fishes.js"></script>
+<script src="app.js"></script>
+<script src="audio.js"></script>
+<script src="ask.js"></script>
+<script src="map.js"></script>
+<script>window.AegeanReader.mountReader(document.querySelector('.reader'));</script>
+</body>
+</html>
