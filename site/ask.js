@@ -64,6 +64,7 @@
         body: JSON.stringify({ audio: b64, mime: blob.type, place: R.state.placeId || null }),
       });
       const data = await r.json();
+      if (r.status === 503) { el.hidden = true; return; }
       if (!r.ok) { qEl.textContent = ''; aEl.textContent = data.error || 'That did not work.'; out.hidden = false; }
       else {
         qEl.textContent = data.question ? `"${data.question}"` : '';

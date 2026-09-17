@@ -92,6 +92,10 @@ export default async function handler(req, res) {
     res.setHeader('Cache-Control', 'no-store');
     return res.status(200).json({ question, answer, audio: spoken });
   } catch (e) {
-    return res.status(500).json({ error: 'Something went wrong asking that.', detail: String(e.message || e).slice(0, 200) });
+    const msg = String(e.message || e);
+    if (/insufficient_quota|no credits|429/.test(msg)) {
+      return res.status(503).json({ error: 'Questions are switched off at the moment. The narration and everything else still works.' });
+    }
+    return res.status(500).json({ error: 'Something went wrong asking that. Try again in a moment.' });
   }
 }

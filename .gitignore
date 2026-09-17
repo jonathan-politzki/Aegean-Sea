@@ -4,3 +4,6 @@ tools/_compile.html
 .DS_Store
 *.heic
 .env
+.env.*
+.vercel/
+site/.vercel/
